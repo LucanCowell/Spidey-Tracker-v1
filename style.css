@@ -1,0 +1,19 @@
+:root {
+    --mainBlue: #1d699c;
+    --mainRed: #dc321c;
+    --font-family: 'Arial', sans-serif;
+}
+
+.mainHeader {
+    text-align: center;
+    font-size: 10em;
+    color: var(--mainRed);
+    margin-bottom: 0;
+}
+
+.subHeader {
+    text-align: center;
+    font-size: 10em;
+    color: var(--mainBlue);
+    margin-top: 0;
+}
