@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: var(--mainBlackTrans);
+    background-color: var(--mainBlue);
 }
 
 .height-100 {
@@ -37,4 +37,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 25px;
 }
