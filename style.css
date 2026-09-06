@@ -16,7 +16,7 @@ body {
 
 .mainHeader {
     text-align: center;
-    font-size: 10em;
+    font-size: 18vh;
     color: var(--mainRed);
     margin-bottom: 0;
     margin-top: 0;
@@ -25,7 +25,7 @@ body {
 
 .subHeader {
     text-align: center;
-    font-size: 10em;
+    font-size: 18vh;
     color: var(--mainBlue);
     margin-top: 0;
     text-shadow: -12px 20px 4px rgba(0, 0, 0, 0.5);
