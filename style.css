@@ -34,8 +34,9 @@ body {
 
 .logo {
     display: block;
-    width: 60px;
+    width: 7vh;
     height: auto;
+    justify-content: center;
 }
 
 .mainSection {
@@ -43,7 +44,7 @@ body {
     min-height: var(--mainHeight);
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
     
 }
 
@@ -51,7 +52,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 1vh 4vh;
+    width: 93%;
+    max-width: 1200px;
 }
 
 .nav-links {
