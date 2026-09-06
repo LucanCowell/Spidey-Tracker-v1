@@ -33,4 +33,8 @@ body {
 
 .mainSection {
     background-color: var(--mainBlackTrans);
+    min-height: var(--mainHeight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
