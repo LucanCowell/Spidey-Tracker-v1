@@ -1,7 +1,7 @@
 :root {
     --mainBlue: #1d699c;
     --mainRed: #dc321c;
-    --font-family: 'Arial', sans-serif;
+    --font-family: 'Comic Sans MS', sans-serif;
     --mainBlackTrans: rgba(0, 0, 0, 0.7);
     --mainHeight: 100vh;
 }
@@ -29,6 +29,7 @@ body {
     color: var(--mainBlue);
     margin-top: 0;
     text-shadow: -12px 20px 4px rgba(0, 0, 0, 0.5);
+    
 }
 
 .mainSection {
@@ -37,6 +38,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .nav-links {
@@ -48,4 +50,14 @@ body {
 
 .nav-links li {
     margin: 0 25px;
+    background-color: var(--mainRed);
+    padding: 10px 20px;
+    border: 3px solid var(--mainBlackTrans);
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
 }
