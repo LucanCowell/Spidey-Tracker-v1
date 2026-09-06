@@ -32,13 +32,26 @@ body {
     
 }
 
+.logo {
+    display: block;
+    width: 60px;
+    height: auto;
+}
+
 .mainSection {
     background-color: var(--mainBlackTrans);
     min-height: var(--mainHeight);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;;
     
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
 }
 
 .nav-links {
@@ -46,6 +59,9 @@ body {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--mainBlue);
 }
 
 .nav-links li {
