@@ -154,6 +154,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--mainDarkBlue);
+    padding: 2vh;
 }
 
 .xpLevel {
