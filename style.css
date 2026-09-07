@@ -6,6 +6,7 @@
     --mainBlackTrans: rgba(0, 0, 0, 0.7);
     --mainHeight: 84vh;
     --mainHeaderHeight: 18vh;
+    --mainWhite: #ffffff;
 }
 
 body {
@@ -126,6 +127,9 @@ body {
     color: var(--mainRed);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 10vh;
+    background-color: var(--mainBlackTrans);
+    padding: 2vh;
+    border: var(--mainDarkBlue) 1vh solid;
 }
 
 #xpProgress {
@@ -158,9 +162,12 @@ body {
     align-items: center;
     margin-top: 1vh;
     margin-bottom: 1vh;
-    color: var(--mainBlackTrans);
+    color: var(--mainWhite);
     font-size: 8vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: var(--mainBlackTrans);
+    padding: 2vh;
+    border: var(--mainDarkBlue) 1vh dashed;
 }
 
 .dashboard {
