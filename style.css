@@ -5,6 +5,7 @@
     --font-family: 'Comic Sans MS', sans-serif;
     --mainBlackTrans: rgba(0, 0, 0, 0.7);
     --mainHeight: 84vh;
+    --mainHeaderHeight: 18vh;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
 
 .mainHeader {
     text-align: center;
-    font-size: 18vh;
+    font-size: var(--mainHeaderHeight);
     color: var(--mainRed);
     margin-bottom: 0;
     margin-top: 0;
@@ -44,7 +45,7 @@ body {
 
 .subHeader {
     text-align: center;
-    font-size: 18vh;
+    font-size: var(--mainHeaderHeight);
     color: var(--mainBlue);
     margin-top: 0;
     margin-bottom: 0;
@@ -89,7 +90,8 @@ body {
 
 .nav-links li:hover {
     background-color: var(--mainDarkBlue);
-    transition: background-color 0.6s ease-out;
+    scale: 1.1;
+    transition: background-color, scale 0.6s ease-out;
 }
 
 .nav-links li {
@@ -106,3 +108,26 @@ body {
     font-size: 1.2rem;
 }
 
+.xpHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#xpProgress {
+    width: 70vh;
+    height: 2vh;
+    background-color: var(--mainDarkBlue);
+    border-radius: 10px;
+    border: 3px solid var(--mainBlackTrans);
+}
+
+.xpValue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
