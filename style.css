@@ -74,7 +74,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1vh 4vh;
-    width: 93%;
+    width: 100%;
+    box-sizing: border-box;
     max-width: 1200px;
 }
 
@@ -108,12 +109,22 @@ body {
     font-size: 1.2rem;
 }
 
+.xpBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
 .xpHeader {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    color: var(--mainRed);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #xpProgress {
@@ -122,6 +133,7 @@ body {
     background-color: var(--mainDarkBlue);
     border-radius: 10px;
     border: 3px solid var(--mainBlackTrans);
+    max-width: 70vh;
 }
 
 .xpValue {
@@ -131,3 +143,20 @@ body {
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
+
+.xpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
