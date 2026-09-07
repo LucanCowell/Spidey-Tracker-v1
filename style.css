@@ -125,6 +125,7 @@ body {
     margin-bottom: 2vh;
     color: var(--mainRed);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 10vh;
 }
 
 #xpProgress {
@@ -149,6 +150,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.xpLevel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: var(--mainBlackTrans);
+    font-size: 8vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .dashboard {
