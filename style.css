@@ -209,7 +209,7 @@ progress::-webkit-progress-value {
 .identityContainer {
     align-items: stretch;
     gap: 4vh;
-    max-width: 90vw;
+    max-width: 1200px;
     margin: 5vh auto 2vh;
     margin-top: 5vh;
     display: flex;
@@ -224,11 +224,16 @@ progress::-webkit-progress-value {
     padding: 2vh 4vh;
     text-shadow: 2px 2px 4px var(--mainBlackTrans);
     flex: 1;
+    max-width: 50%;
+}
+
+.spideyHeading {
+    font-size: 6vh;
 }
 
 .spideyInformation {
     padding: 2vh;
-    width: 30vh;
+    width: 35vh;
     display: flex;
     align-items: center;  
 }
