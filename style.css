@@ -7,6 +7,8 @@
     --mainHeight: 84vh;
     --mainHeaderHeight: 18vh;
     --mainWhite: #ffffff;
+    --mainTan: #d2aa6d;
+    --mainBrown: #704f1c;
 }
 
 body {
@@ -50,7 +52,7 @@ body {
     color: var(--mainBlue);
     margin-top: 0;
     margin-bottom: 0;
-    text-shadow: -12px 20px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 12px 20px 4px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -143,11 +145,8 @@ body {
 
 progress {
     -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     border: none;
-    width: 100%;
-    height: 100%;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -244,4 +243,45 @@ progress::-webkit-progress-value {
 .spideyAvatar {
     width: 100%;
     height: 100%;
+}
+
+.star {
+    display: flex;
+}
+
+/* Missions CSS */
+
+.mixedHeader {
+    display: flex;
+}
+
+.boardContainer {
+    min-width: 700px;
+    max-width: 100%;
+    height: 94vh;
+    background-color: var(--mainTan);
+    border: 3vh solid var(--mainBrown);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+}
+
+.mission {
+    background: var(--mainWhite);
+    height: 20vh;
+    text-align: center;
+    padding: 2vh;
+    border: 4px solid var(--mainBlackTrans);
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px var(--mainBlackTrans);
+    max-width: 40vh;
+    min-width: 20vh;
+}
+
+.pos-1 {
+    grid-column: 1;
+    grid-row: 1;
 }
