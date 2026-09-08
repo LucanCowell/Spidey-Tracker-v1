@@ -282,9 +282,22 @@ progress::-webkit-progress-value {
     margin: 1vh;
 }
 
+.mission::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: var(--mainRed);
+    border-radius: 50%;
+    border: 2px solid var(--mainBlackTrans);
+    transform: translateX(-50%);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3)
+}
+
 .pos-1 {
     grid-column: 1;
     grid-row: 1;
+    transform: rotate(-3deg);
 }
 
 .pos-2 {
@@ -295,6 +308,7 @@ progress::-webkit-progress-value {
 .pos-3 {
     grid-column: 3;
     grid-row: 1;
+    transform: rotate(6deg);
 }
 .pos-4 {
     grid-column: 1;
@@ -304,6 +318,7 @@ progress::-webkit-progress-value {
 .pos-5 {
     grid-column: 2;
     grid-row: 2;
+    transform: rotate(2deg);
 }
 
 .pos-6 {
@@ -313,6 +328,7 @@ progress::-webkit-progress-value {
 .pos-7 {
     grid-column: 1;
     grid-row: 3;
+    transform: rotate(5deg);
 }
 
 .pos-8 {
@@ -323,4 +339,5 @@ progress::-webkit-progress-value {
 .pos-9 {
     grid-column: 3;
     grid-row: 3;
+    transform: rotate(-4deg);
 }
