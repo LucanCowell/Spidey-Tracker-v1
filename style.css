@@ -1,7 +1,9 @@
 :root {
     --mainBlue: #1d699c;
+    --mainBlueTrans: rgba(0, 157, 255, 0.7);
     --mainDarkBlue: #0f3d5e;
     --mainRed: #dc321c;
+    --mainRedTrans: rgba(255, 0, 0, 0.4);
     --font-family: 'Comic Sans MS', sans-serif;
     --mainBlackTrans: rgba(0, 0, 0, 0.7);
     --mainHeight: 84vh;
@@ -298,6 +300,7 @@ progress::-webkit-progress-value {
 
 .mission:hover {
     scale: 1.1;
+    background-color: var(--mainBlueTrans);
 }
 
 .pos-1 {
