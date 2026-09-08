@@ -202,7 +202,38 @@ progress::-webkit-progress-value {
     justify-content: center;
     align-items: center;
     min-height: 10vh;
-    margin-top: 2vh;
+    margin-top: 5vh;
     margin-bottom: 2vh;
 }
 
+.identityContainer {
+    align-items: stretch;
+    gap: 4vh;
+    max-width: 90vw;
+    margin: 5vh auto 2vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainRed);
+    padding: 2vh;
+    border: 1vh solid var(--mainDarkBlue);
+}
+
+.spideyIdentity {
+    padding: 2vh 4vh;
+    text-shadow: 2px 2px 4px var(--mainBlackTrans);
+    flex: 1;
+}
+
+.spideyInformation {
+    padding: 2vh;
+    width: 30vh;
+    display: flex;
+    align-items: center;  
+}
+
+.spideyAvatar {
+    width: 100%;
+    height: 100%;
+}
