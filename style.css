@@ -160,6 +160,9 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
     background-color: var(--mainRed);
     border-radius: 10px;
+    background-image: url(./img/spider-logo-v1.png);
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .xpValue {
