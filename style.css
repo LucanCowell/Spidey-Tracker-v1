@@ -379,9 +379,9 @@ progress::-webkit-progress-value {
 }
 
 .accept:hover {
-    scale: 1.9;
-    color: var(--mainRed);
-    transition: all 2s;
+    scale: 2;
+    color: var(--mainGreen);
+    transition: all 1s;
     cursor:pointer;
     
 }
