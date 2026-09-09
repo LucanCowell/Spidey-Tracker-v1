@@ -284,6 +284,11 @@ progress::-webkit-progress-value {
     transform-style: preserve-3d;
 }
 
+.mission-container:hover {
+    scale: 1.1;
+    transition: all 1s;
+}
+
 .mission-container.is-flipped .mission-inner {
     transform: rotateY(180deg);
 }
