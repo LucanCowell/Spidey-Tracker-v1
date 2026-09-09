@@ -1,6 +1,6 @@
 :root {
     --mainBlue: #1d699c;
-    --mainBlueTrans: rgba(0, 157, 255, 0.7);
+    --mainBlueTrans: rgba(0, 157, 255, 0.644);
     --mainDarkBlue: #0f3d5e;
     --mainRed: #dc321c;
     --mainRedTrans: rgba(255, 0, 0, 0.4);
@@ -11,7 +11,8 @@
     --mainWhite: #ffffff;
     --mainTan: #eac285;
     --mainBrown: #4a3009;
-    --mainGreen: #29c43b;
+    --mainGreen: #07ad1a;
+    --mainBlack: #000;
 }
 
 body {
@@ -354,8 +355,8 @@ progress::-webkit-progress-value {
 }
 
 .accept {
-    background: var(--mainWhite);
-    color: var(--mainGreen);
+    background: var(--mainBack);
+    color: var(--main);
     font-size: 2vh;
     background: none;
     border: none;
