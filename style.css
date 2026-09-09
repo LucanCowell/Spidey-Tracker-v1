@@ -390,3 +390,7 @@ progress::-webkit-progress-value {
     cursor:pointer;
     
 }
+
+.xp-reward {
+    color: var(--mainBlue);
+}
