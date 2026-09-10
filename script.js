@@ -28,6 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Writing", area: "Creative", details: "Write 500 words on the Exotic Curse" },
         { name: "Music", area: "Creative", details: "Practise a Musical Instrument for 30 minutes" },
         { name: "Drama", area: "Creative", details: "Review lines for musicals for 30 minutes" },
+        { name: "JavaScript", area: "Programming", details: "Spend 30 minutes learning JavaScript Concepts" },
+        { name: "CSS", area: "Programming", details: "Spend 30 minutes learning CSS Styles" },
+        { name: "Project Planning", area: "Programming", details: "Plan out future projects and concepts to be learnt" },
     ];
 
     const slots = document.querySelectorAll(".mission-slot");
