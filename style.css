@@ -347,6 +347,10 @@ progress::-webkit-progress-value {
     transform: rotateY(180deg);
 }
 
+.mission {
+    text-decoration: underline;
+}
+
 .mission-container {
     height: 24vh;
     width: 30vh;
