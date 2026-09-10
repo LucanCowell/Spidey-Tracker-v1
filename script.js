@@ -47,14 +47,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateDashboardUI() {
         if (xpProgress) xpProgress.value = currentXP;
-        if (xpValueText) xpValueText.textContent = `${currentXP}/100`;
+        if (xpValueText) xpValueText.textContent = `${currentXP}/200`;
         if (xpLevelText) xpLevelText.textContent = currentLevel;
     }
 
     function gainXP(amount) {
         currentXP += amount;
-        while (currentXP >= 100) {
-            currentXP -= 100;
+        while (currentXP >= 200) {
+            currentXP -= 200;
             currentLevel++;
         }
         localStorage.setItem("spideyLevel", currentLevel);
