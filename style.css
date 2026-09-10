@@ -349,6 +349,7 @@ progress::-webkit-progress-value {
 
 .mission {
     text-decoration: underline;
+    color: var(--mainDarkBlue);
 }
 
 .mission-container {
