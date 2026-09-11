@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Math Extension", area: "Academics", difficulty: "Advanced", details: "Attempt 3 difficult questions before looking at any solutions" },
     //English Advanced
     { name: "English Advanced", area: "Academics", difficulty: "Advanced", details: "Complete a Short Answer Practice Exam" },
-    { name: "English Advanced", area: "Academics", difficulty: "Beginner", details: "Review Quote Flashcards" },
+    { name: "English Advanced", area: "Academics", difficulty: "Beginner", details: "Review Quote Flashcards and create new Flashcards to address weak areas" },
     { name: "English Advanced", area: "Academics", difficulty: "Advanced", details: "Write a draft for a 20 mark responce" },
     { name: "English Advanced", area: "Academics", difficulty: "Advanced", details: "Write a 10-mark analytical response under timed conditions" },
     { name: "English Advanced", area: "Academics", difficulty: "Beginner", details: "Memorise 5 important quotes" },
