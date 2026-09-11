@@ -194,6 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <button class="flip-btn back-flip"><i class="fa-solid fa-arrow-left"></i></button>
                         <h1>Details</h1>
                         <p>${quest.details}</p>
+                        <h2>Difficulty: ${quest.difficulty}</h2>
                     </div>
                 </div>
             </div>
@@ -225,7 +226,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 name: baseQuest.name,
                 area: baseQuest.area,
                 details: baseQuest.details,
-                xp: randomXP
+                xp: randomXP,
+                difficulty: baseQuest.difficulty,
             };
 
             // Lock it in memory
