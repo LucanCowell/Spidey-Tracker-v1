@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //Math Extension
     { name: "Math Extension", area: "Academics", difficulty: "Advanced", details: "Spend 1 hour reviwing 3D Trigonometry" },
     { name: "Math Extension", area: "Academics", difficulty: "Intermediate", details: "Spend 30 reviwing the Binomial Theorum" },
-    { name: "Math Extension", area: "Academics", difficulty: "Hero", details: "Complete a Practice Test" },
+    { name: "Math Extension", area: "Academics", difficulty: "Advanced", details: "Complete a Practice Test" },
     { name: "Math Extension", area: "Academics", difficulty: "Advanced", details: "Complete 10 challenging Extension questions" },
     { name: "Math Extension", area: "Academics", difficulty: "Advanced", details: "Complete 30 minutes of difficult questions without notes" },
     { name: "Math Extension", area: "Academics", difficulty: "Advanced", details: "Redo your 5 hardest previously incorrect questions" },
@@ -212,15 +212,40 @@ document.addEventListener("DOMContentLoaded", () => {
             activeQuest = savedBoardState[slotId];
         } else {
             // makes sure no duplicates
-            const namesOnBoard = Object.values(savedBoardState).map(q => q.name);
-            let availableQuests = questPool.filter(q => !namesOnBoard.includes(q.name));
+            const missionsOnBoard = Object.values(savedBoardState).map(q => q.details);
+            let availableQuests = questPool.filter(q => !missionsOnBoard.includes(q.details));
             
             if (availableQuests.length === 0) availableQuests = questPool;
 
             const baseQuest = availableQuests[Math.floor(Math.random() * availableQuests.length)];
             
             // Random XP
-            const randomXP = Math.floor(Math.random() * (30 - 10 + 1)) + 10;
+            let minXP;
+            let maxXP;
+
+            switch (baseQuest.difficulty) {
+                case "Beginner":
+                    minXP = 10;
+                    maxXP = 20;
+                    break;
+                
+                case "Intermediate":
+                    minXP = 20;
+                    maxXP = 30;
+                    break;
+
+                case "Advanced":
+                    minXP = 30;
+                    maxXP = 40;
+                    break;
+
+                case "Hero":
+                    mixXP = 40;
+                    maxXP = 50;
+                    break;
+            }
+
+            const randomXP = Math.floor(Math.random() * (maxXP - minXP + 1)) + minXP;
 
             activeQuest = {
                 name: baseQuest.name,
