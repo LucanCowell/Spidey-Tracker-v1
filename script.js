@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Chemistry", area: "Academics", details: "Complete a Chemistry Practice Test" },
         { name: "Chemistry", area: "Academics", details: "Review Chemistry Fundamentals for 30 Minutes" },
         { name: "Chemistry", area: "Academics", details: "Enathalpy and Entropy Questions for 30 Minutes" },
+        { name: "Chemistry", area: "Academics", details: "Practice Balancing Complex Equations for 30 minutes" },
         { name: "Math Advanced", area: "Academics", details: "Complete a Practice Exam targetting weak areas" },
         { name: "Math Advanced", area: "Academics", details: "Review Key Concepts in Weakest Areas" },
         { name: "Math Advanced", area: "Academics", details: "Complete a Chapter Review" },
@@ -29,7 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Music", area: "Creative", details: "Practise a Musical Instrument for 30 minutes" },
         { name: "Drama", area: "Creative", details: "Review lines for musicals for 30 minutes" },
         { name: "JavaScript", area: "Programming", details: "Spend 30 minutes learning JavaScript Concepts" },
+        { name: "HTML", area: "Programming", details: "Spend 30 minutes learning HTML Concepts" },
         { name: "CSS", area: "Programming", details: "Spend 30 minutes learning CSS Styles" },
+        { name: "Python", area: "Programming", details: "Spend 30 minutes learning Python Logic" },
         { name: "Project Planning", area: "Programming", details: "Plan out future projects and concepts to be learnt" },
     ];
 
