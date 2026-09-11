@@ -201,6 +201,8 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
     }
 
+    //NOTE: The icons will only appear with an internet connection due to its use of a 3rd-Party "Awesome Icons"
+
     // Deployment
     function deployQuest(slot, slotId) {
         if (!slot) return;
