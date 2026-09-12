@@ -271,7 +271,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 Advanced:3,
             }
 
-            
+            function increaseSkill(area, difficulty) {
+                if (!skillStats.hasOwnProperty(area)) return;
+                skillStats[area] += skillXP[difficulty];
+                localStorage.setItem(
+                    "spideySkillStats",
+                    JSON.stringify(skillStats)
+                );
+                updateSkillUI();
+            }
+
 
             // Lock it in memory
             savedBoardState[slotId] = activeQuest;
@@ -300,6 +309,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const xpEarned = parseInt(xpRewardElement.getAttribute("data-xp"));
             gainXP(xpEarned);
+            increaseSkill(activeQuest.area, activeQuest.difficulty);
 
             container.classList.add("fade-out");
 
