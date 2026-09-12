@@ -257,6 +257,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 difficulty: baseQuest.difficulty,
             };
 
+            let skillStats = JSON.parse(localStorage.getItem("spideySkillStats")) || {
+                Fitness:0,
+                Academics:0,
+                Creative:0,
+                Programming:0,
+                "Electrical Engineering":0,
+            }
+
+            const skillXP = {
+                Beginner:1,
+                Intermediate:2,
+                Advanced:3,
+            }
+
+            
+
             // Lock it in memory
             savedBoardState[slotId] = activeQuest;
             localStorage.setItem("spideyBoardState", JSON.stringify(savedBoardState));
@@ -305,6 +321,8 @@ document.addEventListener("DOMContentLoaded", () => {
         deployQuest(slot, dynamicId);
     });
 });
+
+
 //Use the command below to reset the user level
 
 //localStorage.clear(); location.reload();
