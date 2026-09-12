@@ -116,6 +116,11 @@ body {
     font-size: 1.2rem;
 }
 
+.nav-links.active {
+    background-color: var(--mainRed);
+    color: var(--mainBlue);
+}
+
 .xpBar {
     display: flex;
     justify-content: center;
