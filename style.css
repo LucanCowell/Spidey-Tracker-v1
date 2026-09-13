@@ -402,6 +402,7 @@ progress::-webkit-progress-value {
     background: var(--mainBook);
     border: 1vh solid var(--mainBrown);
     margin-top: 5vh;
+    display: flex;
 }
 
 .journalLeft {
@@ -409,4 +410,12 @@ progress::-webkit-progress-value {
     height: 90vh;
     background: var(--mainBlackTrans);
     border-right: 1vh solid var(--mainBrown);
+}
+
+.journalUnderline {
+    width: 60vh;
+    height: 5px;
+    background: var(--mainBlackTrans);
+    margin-left: 5vh;
+    margin-top: 30vh;
 }
