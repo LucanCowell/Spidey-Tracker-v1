@@ -13,6 +13,7 @@
     --mainBrown: #4a3009;
     --mainGreen: #07ad1a;
     --mainBlack: #000;
+    --mainBook: #e7e495;
 }
 
 body {
@@ -60,14 +61,6 @@ body {
     
 }
 
-.logo {
-    display: block;
-    width: 7vh;
-    height: auto;
-    justify-content: center;
-    margin: 0 auto;
-}
-
 .mainSection {
     background-color: var(--mainBlackTrans);
     min-height: var(--mainHeight);
@@ -79,12 +72,11 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1vh 4vh;
     width: 100%;
+    padding: 1vh 4vh;
     box-sizing: border-box;
-    max-width: 73%;
+    position: relative;
 }
 
 .nav-links {
@@ -93,6 +85,7 @@ body {
     align-items: center;
     list-style-type: none;
     padding: 0;
+    margin: 0 auto;
     background-color: var(--mainBlue);
 }
 
@@ -114,11 +107,6 @@ body {
     color: white;
     font-family: var(--font-family);
     font-size: 1.2rem;
-}
-
-.nav-links.active {
-    background-color: var(--mainRed);
-    color: var(--mainBlue);
 }
 
 .xpBar {
@@ -404,4 +392,14 @@ progress::-webkit-progress-value {
 
 .xp-reward {
     color: var(--mainBlue);
+}
+
+/* Journal CSS */
+
+.journalContainer {
+    width: 90vh;
+    height: 90vh;
+    background: var(--mainBook);
+    border: 1vh solid var(--mainBrown);
+    margin-top: 5vh;
 }
