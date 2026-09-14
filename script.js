@@ -164,6 +164,49 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Music", area: "Creativity", difficulty: "Intermediate", details: "Learn a new section of a piece of music" },
         { name: "Drama", area: "Creativity", difficulty: "Intermediate", details: "Practise musical theatre lines for 30 minutes" },
         { name: "Drama", area: "Creativity", difficulty: "Intermediate", details: "Practise acting a scene for 20 minutes" },
+        { name: "Writing", area: "Creativity", difficulty: "Beginner", details: "Write 300 words on the Exotic Curse" },
+        { name: "Writing", area: "Creativity", difficulty: "Intermediate", details: "Write 500 words on the Exotic Curse" },
+        { name: "Writing", area: "Creativity", difficulty: "Advanced", details: "Write 1,000 words on the Exotic Curse" },
+        { name: "Writing", area: "Creativity", difficulty: "Intermediate", details: "Write a new scene for the Exotic Curse" },
+        { name: "Writing", area: "Creativity", difficulty: "Advanced", details: "Write a major turning point for an Exotic Curse character" },
+        { name: "Writing", area: "Creativity", difficulty: "Intermediate", details: "Rewrite an old scene from a different character's perspective" },
+        { name: "Writing", area: "Creativity", difficulty: "Beginner", details: "Write for 30 minutes without editing your work" },
+        { name: "Writing", area: "Creativity", difficulty: "Intermediate", details: "Edit and improve 500 words of existing writing" },
+        { name: "Writing", area: "Creativity", difficulty: "Advanced", details: "Rewrite a scene while significantly improving its dialogue and pacing" },
+        { name: "Writing", area: "Creativity", difficulty: "Advanced", details: "Write a complete short story within one sitting" },
+
+        { name: "Characters", area: "Creativity", difficulty: "Beginner", details: "Create a basic character profile for a new character" },
+        { name: "Characters", area: "Creativity", difficulty: "Intermediate", details: "Develop a new character for the Exotic Curse" },
+        { name: "Characters", area: "Creativity", difficulty: "Intermediate", details: "Create a character's personality, motivations, strengths, and weaknesses" },
+        { name: "Characters", area: "Creativity", difficulty: "Advanced", details: "Design a character arc from beginning to end" },
+        { name: "Characters", area: "Creativity", difficulty: "Advanced", details: "Create a complex antagonist with understandable motivations" },
+
+        { name: "Worldbuilding", area: "Creativity", difficulty: "Beginner", details: "Develop a new location in Nallarica" },
+        { name: "Worldbuilding", area: "Creativity", difficulty: "Intermediate", details: "Create a new piece of lore for Nallarica" },
+        { name: "Worldbuilding", area: "Creativity", difficulty: "Intermediate", details: "Develop a new ability for a character" },
+        { name: "Worldbuilding", area: "Creativity", difficulty: "Advanced", details: "Develop a new faction, organisation, or civilisation" },
+        { name: "Worldbuilding", area: "Creativity", difficulty: "Advanced", details: "Create the history of an important location in Nallarica" },
+        { name: "Worldbuilding", area: "Creativity", difficulty: "Advanced", details: "Develop a complete culture including its beliefs, traditions, and society" },
+        { name: "Worldbuilding", area: "Creativity", difficulty: "Hero", details: "Design an entirely new region of Nallarica with its own history, geography, and civilisation" },
+
+        { name: "Story Planning", area: "Creativity", difficulty: "Beginner", details: "Create a basic plot outline for a new story" },
+        { name: "Story Planning", area: "Creativity", difficulty: "Intermediate", details: "Plan the major events of an Exotic Curse chapter" },
+        { name: "Story Planning", area: "Creativity", difficulty: "Intermediate", details: "Create a three-act structure for a new story" },
+        { name: "Story Planning", area: "Creativity", difficulty: "Advanced", details: "Plan an entire story arc including its beginning, climax, and ending" },
+        { name: "Story Planning", area: "Creativity", difficulty: "Hero", details: "Design the complete plot structure for a new novel" },
+
+        { name: "Music", area: "Creativity", difficulty: "Beginner", details: "Practise a musical instrument for 20 minutes" },
+        { name: "Music", area: "Creativity", difficulty: "Intermediate", details: "Practise a musical instrument for 30 minutes" },
+        { name: "Music", area: "Creativity", difficulty: "Intermediate", details: "Learn a new section of a piece of music" },
+        { name: "Music", area: "Creativity", difficulty: "Advanced", details: "Learn and perform an entire new piece of music" },
+        { name: "Music", area: "Creativity", difficulty: "Advanced", details: "Compose a short original piece of music" },
+
+        { name: "Drama", area: "Creativity", difficulty: "Beginner", details: "Practise musical theatre lines for 20 minutes" },
+        { name: "Drama", area: "Creativity", difficulty: "Intermediate", details: "Practise musical theatre lines for 30 minutes" },
+        { name: "Drama", area: "Creativity", difficulty: "Intermediate", details: "Practise acting a scene for 20 minutes" },
+        { name: "Drama", area: "Creativity", difficulty: "Advanced", details: "Perform a scene from memory without using your script" },
+        { name: "Drama", area: "Creativity", difficulty: "Advanced", details: "Create and perform an original character monologue" },
+
 
 
         
