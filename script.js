@@ -185,6 +185,74 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Programming", area: "Programming", difficulty: "Advanced", details: "Learn an unfamiliar programming concept and implement it into one of your existing projects" },
         { name: "GitHub", area: "Programming", difficulty: "Beginner", details: "Make a meaningful commit and write a clear description explaining what you changed" },
         { name: "Project Planning", area: "Programming", difficulty: "Advanced", details: "Design the technical architecture for a new application, including its features, data, and required technologies" },
+        { name: "JavaScript", area: "Programming", difficulty: "Beginner", details: "Practise using if statements, else statements, and comparison operators" },
+        { name: "JavaScript", area: "Programming", difficulty: "Beginner", details: "Write 5 small programs using JavaScript loops" },
+        { name: "JavaScript", area: "Programming", difficulty: "Beginner", details: "Create a JavaScript function that accepts inputs and returns a result" },
+        { name: "JavaScript", area: "Programming", difficulty: "Intermediate", details: "Build a small calculator using JavaScript functions and event listeners" },
+        { name: "JavaScript", area: "Programming", difficulty: "Intermediate", details: "Create a webpage that dynamically changes its content using JavaScript" },
+        { name: "JavaScript", area: "Programming", difficulty: "Intermediate", details: "Practise working with arrays and array methods for 30 minutes" },
+        { name: "JavaScript", area: "Programming", difficulty: "Intermediate", details: "Build a randomised JavaScript feature without following a tutorial" },
+        { name: "JavaScript", area: "Programming", difficulty: "Advanced", details: "Build a JavaScript feature that stores and retrieves data using localStorage" },
+        { name: "JavaScript", area: "Programming", difficulty: "Advanced", details: "Refactor an existing JavaScript function to make it cleaner and more efficient" },
+        { name: "JavaScript", area: "Programming", difficulty: "Advanced", details: "Build a small application using multiple JavaScript functions and objects" },
+
+        { name: "Python", area: "Programming", difficulty: "Beginner", details: "Practise Python lists, dictionaries, and sets for 30 minutes" },
+        { name: "Python", area: "Programming", difficulty: "Beginner", details: "Write 5 Python programs using functions" },
+        { name: "Python", area: "Programming", difficulty: "Intermediate", details: "Build a Python program that reads and processes a collection of data" },
+        { name: "Python", area: "Programming", difficulty: "Intermediate", details: "Build a text-based Python game using functions and conditional logic" },
+        { name: "Python", area: "Programming", difficulty: "Intermediate", details: "Write a Python program that sorts and searches through data" },
+        { name: "Python", area: "Programming", difficulty: "Advanced", details: "Build a Python application that saves and loads data from a file" },
+        { name: "Python", area: "Programming", difficulty: "Advanced", details: "Solve a programming challenge using an algorithm you designed yourself" },
+
+        { name: "HTML", area: "Programming", difficulty: "Beginner", details: "Build a webpage using semantic HTML elements" },
+        { name: "HTML", area: "Programming", difficulty: "Beginner", details: "Create an accessible HTML form with multiple input types" },
+        { name: "HTML", area: "Programming", difficulty: "Intermediate", details: "Rebuild one of your existing webpages using cleaner semantic HTML" },
+
+        { name: "CSS", area: "Programming", difficulty: "Beginner", details: "Practise CSS Flexbox by creating three different layouts" },
+        { name: "CSS", area: "Programming", difficulty: "Beginner", details: "Practise CSS Grid by creating a responsive layout" },
+        { name: "CSS", area: "Programming", difficulty: "Intermediate", details: "Make one of your existing webpages responsive for mobile screens" },
+        { name: "CSS", area: "Programming", difficulty: "Intermediate", details: "Create a responsive navigation bar without following a tutorial" },
+        { name: "CSS", area: "Programming", difficulty: "Advanced", details: "Build a complex responsive interface using Grid, Flexbox, and media queries" },
+
+        { name: "Web Dev", area: "Programming", difficulty: "Beginner", details: "Build a simple webpage from scratch without using a template" },
+        { name: "Web Dev", area: "Programming", difficulty: "Intermediate", details: "Build a webpage that responds to user interaction using HTML, CSS, and JavaScript" },
+        { name: "Web Dev", area: "Programming", difficulty: "Intermediate", details: "Recreate a simple website interface from a screenshot" },
+        { name: "Web Dev", area: "Programming", difficulty: "Advanced", details: "Build a complete interactive webpage without following a tutorial" },
+        { name: "Web Dev", area: "Programming", difficulty: "Hero", details: "Build a complete web application combining HTML, CSS, JavaScript, and localStorage" },
+
+        { name: "Debugging", area: "Programming", difficulty: "Beginner", details: "Find and fix 5 simple errors in a JavaScript program" },
+        { name: "Debugging", area: "Programming", difficulty: "Intermediate", details: "Debug a program without immediately looking up the error online" },
+        { name: "Debugging", area: "Programming", difficulty: "Intermediate", details: "Use browser developer tools to identify and fix a JavaScript error" },
+        { name: "Debugging", area: "Programming", difficulty: "Advanced", details: "Debug a complex feature and document the cause and solution of each problem" },
+
+        { name: "Algorithms", area: "Programming", difficulty: "Beginner", details: "Learn the basic concept of algorithms and write one in pseudocode" },
+        { name: "Algorithms", area: "Programming", difficulty: "Intermediate", details: "Solve 3 programming problems using different approaches" },
+        { name: "Algorithms", area: "Programming", difficulty: "Intermediate", details: "Write an algorithm for sorting a list of numbers" },
+        { name: "Algorithms", area: "Programming", difficulty: "Advanced", details: "Compare two different algorithms for solving the same problem" },
+        { name: "Algorithms", area: "Programming", difficulty: "Advanced", details: "Solve a difficult programming challenge without using a solution guide" },
+
+        { name: "Data Structures", area: "Programming", difficulty: "Beginner", details: "Learn how arrays, objects, and dictionaries store data" },
+        { name: "Data Structures", area: "Programming", difficulty: "Intermediate", details: "Implement a simple stack or queue in Python or JavaScript" },
+        { name: "Data Structures", area: "Programming", difficulty: "Advanced", details: "Choose an appropriate data structure for a programming problem and justify your choice" },
+
+        { name: "GitHub", area: "Programming", difficulty: "Beginner", details: "Create a new Git branch and merge it into your main branch" },
+        { name: "GitHub", area: "Programming", difficulty: "Intermediate", details: "Review your GitHub repositories and improve their documentation" },
+        { name: "GitHub", area: "Programming", difficulty: "Intermediate", details: "Create a professional README for one of your projects" },
+        { name: "GitHub", area: "Programming", difficulty: "Advanced", details: "Create a feature branch, make multiple commits, and merge the completed feature" },
+
+        { name: "Project Planning", area: "Programming", difficulty: "Beginner", details: "Write down the requirements for a new programming project" },
+        { name: "Project Planning", area: "Programming", difficulty: "Intermediate", details: "Break a programming project into smaller features and development tasks" },
+        { name: "Project Planning", area: "Programming", difficulty: "Advanced", details: "Create a complete development roadmap for a new application" },
+        { name: "Project Planning", area: "Programming", difficulty: "Hero", details: "Design the architecture of a large application and explain how its systems will communicate" },
+
+        { name: "Code Quality", area: "Programming", difficulty: "Beginner", details: "Review one of your old projects and identify 5 areas for improvement" },
+        { name: "Code Quality", area: "Programming", difficulty: "Intermediate", details: "Refactor a section of your code to improve readability" },
+        { name: "Code Quality", area: "Programming", difficulty: "Advanced", details: "Refactor an existing project while keeping all of its functionality working" },
+
+        { name: "Problem Solving", area: "Programming", difficulty: "Beginner", details: "Solve 5 small programming problems without using a tutorial" },
+        { name: "Problem Solving", area: "Programming", difficulty: "Intermediate", details: "Solve 3 programming problems using only documentation and your own reasoning" },
+        { name: "Problem Solving", area: "Programming", difficulty: "Advanced", details: "Solve a difficult programming problem and explain your reasoning step by step" },
+
 
 
         
