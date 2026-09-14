@@ -200,7 +200,64 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Electronics", area: "Electrical Engineering", difficulty: "Intermediate", details: "Design a simple LED circuit and calculate the appropriate resistor value" },
         { name: "Microcontrollers", area: "Electrical Engineering", difficulty: "Intermediate", details: "Spend 30 minutes learning how microcontrollers interact with electronic components" },
         { name: "Circuit Analysis", area: "Electrical Engineering", difficulty: "Advanced", details: "Analyse a simple circuit and calculate the voltage across each component" },
-        { name: "Engineering Project", area: "Electrical Engineering", difficulty: "Advanced", details: "Design a working low-voltage electronics project and document how the circuit will operate" }
+        { name: "Engineering Project", area: "Electrical Engineering", difficulty: "Advanced", details: "Design a working low-voltage electronics project and document how the circuit will operate" },
+        { name: "Power", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn how electrical power is calculated using voltage, current, and resistance" },
+        { name: "Power", area: "Electrical Engineering", difficulty: "Intermediate", details: "Complete 10 electrical power and energy calculation problems" },
+        { name: "Resistors", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn how resistor values are represented using colour codes" },
+        { name: "Resistors", area: "Electrical Engineering", difficulty: "Intermediate", details: "Calculate the equivalent resistance of series and parallel resistor networks" },
+        { name: "Capacitors", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn what capacitors do and identify common applications" },
+        { name: "Capacitors", area: "Electrical Engineering", difficulty: "Intermediate", details: "Calculate the total capacitance of simple capacitor networks" },
+        { name: "Diodes", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn how a diode works and identify its purpose in a circuit" },
+        { name: "Diodes", area: "Electrical Engineering", difficulty: "Intermediate", details: "Explain the difference between a standard diode, LED, and Zener diode" },
+        { name: "Transistors", area: "Electrical Engineering", difficulty: "Intermediate", details: "Learn the basic function of a transistor and its three terminals" },
+        { name: "Transistors", area: "Electrical Engineering", difficulty: "Advanced", details: "Explain how a transistor can be used as an electronic switch" },
+
+        { name: "Kirchhoff's Laws", area: "Electrical Engineering", difficulty: "Intermediate", details: "Learn Kirchhoff's Current Law and Kirchhoff's Voltage Law" },
+        { name: "Kirchhoff's Laws", area: "Electrical Engineering", difficulty: "Advanced", details: "Solve 5 circuit problems using Kirchhoff's Laws" },
+        { name: "Circuit Analysis", area: "Electrical Engineering", difficulty: "Intermediate", details: "Calculate the current flowing through each branch of a parallel circuit" },
+        { name: "Circuit Analysis", area: "Electrical Engineering", difficulty: "Advanced", details: "Analyse a multi-loop circuit and calculate unknown currents and voltages" },
+
+        { name: "Digital Logic", area: "Electrical Engineering", difficulty: "Beginner", details: "Create truth tables for AND, OR, NOT, and XOR gates" },
+        { name: "Digital Logic", area: "Electrical Engineering", difficulty: "Intermediate", details: "Combine multiple logic gates to create a simple digital logic circuit" },
+        { name: "Digital Logic", area: "Electrical Engineering", difficulty: "Advanced", details: "Design a logic circuit that produces a specific output from multiple inputs" },
+        { name: "Binary", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn how binary numbers represent information in digital electronics" },
+        { name: "Binary", area: "Electrical Engineering", difficulty: "Intermediate", details: "Convert 10 numbers between binary and decimal" },
+
+        { name: "Microcontrollers", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn the basic purpose of a microcontroller and identify its main components" },
+        { name: "Microcontrollers", area: "Electrical Engineering", difficulty: "Intermediate", details: "Learn how digital input and output pins work on a microcontroller" },
+        { name: "Microcontrollers", area: "Electrical Engineering", difficulty: "Intermediate", details: "Design a simple system where a sensor controls an output device" },
+        { name: "Microcontrollers", area: "Electrical Engineering", difficulty: "Advanced", details: "Plan the electrical architecture for a microcontroller-based project" },
+
+        { name: "Sensors", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn how basic sensors convert physical conditions into electrical signals" },
+        { name: "Sensors", area: "Electrical Engineering", difficulty: "Intermediate", details: "Research three different sensors and explain how each one works" },
+        { name: "Sensors", area: "Electrical Engineering", difficulty: "Advanced", details: "Design a sensor system that detects a physical change and triggers an output" },
+
+        { name: "Motors", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn the basic differences between DC motors, servo motors, and stepper motors" },
+        { name: "Motors", area: "Electrical Engineering", difficulty: "Intermediate", details: "Explain how a microcontroller can control a motor" },
+        { name: "Motors", area: "Electrical Engineering", difficulty: "Advanced", details: "Design a basic motor-control system and identify the components required" },
+
+        { name: "Soldering", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn the basic principles of soldering and identify the purpose of each tool" },
+        { name: "Breadboarding", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn how a breadboard is internally connected" },
+        { name: "Breadboarding", area: "Electrical Engineering", difficulty: "Intermediate", details: "Build a simple LED circuit on a breadboard" },
+        { name: "Breadboarding", area: "Electrical Engineering", difficulty: "Advanced", details: "Build and troubleshoot a multi-component circuit on a breadboard" },
+
+        { name: "Circuit Troubleshooting", area: "Electrical Engineering", difficulty: "Intermediate", details: "Identify possible causes of failure in a simple electronic circuit" },
+        { name: "Circuit Troubleshooting", area: "Electrical Engineering", difficulty: "Advanced", details: "Diagnose a deliberately faulty circuit and identify the failed connection or component" },
+
+        { name: "Multimeter", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn what voltage, resistance, and continuity measurements tell you" },
+        { name: "Multimeter", area: "Electrical Engineering", difficulty: "Intermediate", details: "Practise interpreting voltage and resistance measurements from a circuit" },
+        { name: "Multimeter", area: "Electrical Engineering", difficulty: "Advanced", details: "Use systematic measurements to troubleshoot a low-voltage circuit" },
+
+        { name: "Engineering Design", area: "Electrical Engineering", difficulty: "Intermediate", details: "Draw a schematic for a simple electronic device" },
+        { name: "Engineering Design", area: "Electrical Engineering", difficulty: "Advanced", details: "Design a complete low-voltage electronic system from a set of requirements" },
+        { name: "Engineering Design", area: "Electrical Engineering", difficulty: "Advanced", details: "Create a component list and electrical schematic for one of your future projects" },
+
+        { name: "Power Systems", area: "Electrical Engineering", difficulty: "Intermediate", details: "Compare batteries, USB power, and other low-voltage power sources" },
+        { name: "Power Systems", area: "Electrical Engineering", difficulty: "Advanced", details: "Calculate the approximate power requirements of a small electronic system" },
+
+        { name: "Theory", area: "Electrical Engineering", difficulty: "Advanced", details: "Spend 1 hour studying an unfamiliar electrical engineering concept and write a summary from memory" },
+        { name: "Engineering Research", area: "Electrical Engineering", difficulty: "Intermediate", details: "Research a real-world electrical engineering technology and explain how it works" },
+        { name: "Engineering Research", area: "Electrical Engineering", difficulty: "Advanced", details: "Research an advanced electronics system and create a technical breakdown of its components" },
 
     ];
 
