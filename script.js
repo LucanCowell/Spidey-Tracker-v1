@@ -141,6 +141,56 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Mobility", area: "Fitness", difficulty: "Beginner", details: "Complete 15 minutes of mobility work" },
         { name: "Cardio", area: "Fitness", difficulty: "Intermediate", details: "Complete 20 minutes of moderate cardio" },
         { name: "Recovery", area: "Fitness", difficulty: "Beginner", details: "Complete a 10-minute recovery and mobility session" },
+        { name: "Calisthenics", area: "Fitness", difficulty: "Beginner", details: "Spend 15 minutes practising basic calisthenics movements with controlled form" },
+        { name: "Calisthenics", area: "Fitness", difficulty: "Beginner", details: "Complete a short bodyweight mobility routine" },
+        { name: "Calisthenics", area: "Fitness", difficulty: "Intermediate", details: "Complete a full-body bodyweight workout" },
+        { name: "Calisthenics", area: "Fitness", difficulty: "Intermediate", details: "Complete 3 rounds of a bodyweight circuit" },
+        { name: "Calisthenics", area: "Fitness", difficulty: "Advanced", details: "Complete a challenging full-body calisthenics session" },
+
+        { name: "Home Gym", area: "Fitness", difficulty: "Beginner", details: "Complete a 20-minute strength session using available equipment" },
+        { name: "Home Gym", area: "Fitness", difficulty: "Intermediate", details: "Complete 3 sets of an upper-body exercise with controlled form" },
+        { name: "Home Gym", area: "Fitness", difficulty: "Intermediate", details: "Complete 3 sets of a lower-body exercise with controlled form" },
+        { name: "Home Gym", area: "Fitness", difficulty: "Intermediate", details: "Complete a full-body strength session" },
+        { name: "Home Gym", area: "Fitness", difficulty: "Advanced", details: "Complete a structured strength workout covering multiple muscle groups" },
+
+        { name: "Core", area: "Fitness", difficulty: "Beginner", details: "Complete 10 minutes of core exercises" },
+        { name: "Core", area: "Fitness", difficulty: "Intermediate", details: "Complete 3 rounds of a core circuit" },
+        { name: "Core", area: "Fitness", difficulty: "Advanced", details: "Complete a challenging 20-minute core session with controlled technique" },
+
+        { name: "Cardio", area: "Fitness", difficulty: "Beginner", details: "Complete 15 minutes of light cardio" },
+        { name: "Cardio", area: "Fitness", difficulty: "Intermediate", details: "Complete 20 minutes of moderate cardio" },
+        { name: "Cardio", area: "Fitness", difficulty: "Intermediate", details: "Complete a short interval-based cardio session" },
+        { name: "Cardio", area: "Fitness", difficulty: "Advanced", details: "Complete a challenging cardio session while maintaining good technique" },
+
+        { name: "Mobility", area: "Fitness", difficulty: "Beginner", details: "Complete 10 minutes of full-body mobility work" },
+        { name: "Mobility", area: "Fitness", difficulty: "Intermediate", details: "Complete 20 minutes of mobility and flexibility work" },
+        { name: "Mobility", area: "Fitness", difficulty: "Advanced", details: "Complete a structured full-body mobility session" },
+
+        { name: "Recovery", area: "Fitness", difficulty: "Beginner", details: "Complete a 10-minute recovery and mobility session" },
+        { name: "Recovery", area: "Fitness", difficulty: "Beginner", details: "Spend 15 minutes stretching and recovering after training" },
+        { name: "Recovery", area: "Fitness", difficulty: "Intermediate", details: "Complete a 20-minute recovery session focusing on mobility" },
+
+        { name: "Push", area: "Fitness", difficulty: "Beginner", details: "Practise push-up technique for 10 minutes" },
+        { name: "Push", area: "Fitness", difficulty: "Intermediate", details: "Complete 3 sets of push-ups using controlled form" },
+        { name: "Push", area: "Fitness", difficulty: "Advanced", details: "Complete a challenging push-focused bodyweight session" },
+
+        { name: "Pull", area: "Fitness", difficulty: "Beginner", details: "Practise basic pulling movements for 10 minutes" },
+        { name: "Pull", area: "Fitness", difficulty: "Intermediate", details: "Complete 3 sets of a suitable pulling exercise with controlled form" },
+        { name: "Pull", area: "Fitness", difficulty: "Advanced", details: "Complete a challenging pull-focused workout using available equipment" },
+
+        { name: "Legs", area: "Fitness", difficulty: "Beginner", details: "Practise squat and lunge technique for 10 minutes" },
+        { name: "Legs", area: "Fitness", difficulty: "Intermediate", details: "Complete 3 sets of a chosen lower-body exercise with good form" },
+        { name: "Legs", area: "Fitness", difficulty: "Advanced", details: "Complete a challenging lower-body workout using available equipment" },
+
+        { name: "Endurance", area: "Fitness", difficulty: "Beginner", details: "Complete 15 minutes of continuous low-intensity activity" },
+        { name: "Endurance", area: "Fitness", difficulty: "Intermediate", details: "Complete 30 minutes of continuous moderate activity" },
+        { name: "Endurance", area: "Fitness", difficulty: "Advanced", details: "Complete a sustained endurance session while maintaining a steady pace" },
+
+        { name: "Wood Cutting", area: "Fitness", difficulty: "Intermediate", details: "Cut some firewood with the Blockbuster if available" },
+        { name: "Wood Cutting", area: "Fitness", difficulty: "Advanced", details: "Complete a longer firewood session if available and safe to do so" },
+
+        { name: "Cindy", area: "Fitness", difficulty: "Intermediate", details: "Complete a variation of the Cindy workout using appropriate repetitions" },
+        { name: "Cindy", area: "Fitness", difficulty: "Advanced", details: "Complete multiple rounds of a Cindy-style bodyweight workout at a sustainable pace" },
 
 
         
