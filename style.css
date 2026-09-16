@@ -419,3 +419,11 @@ progress::-webkit-progress-value {
     margin-left: 5vh;
     margin-top: 30vh;
 }
+
+/* Projects Section */
+
+#projectsLoad {
+    background: var(--mainDarkBlue);
+    height: 50vh;
+    width: 100%;
+}
