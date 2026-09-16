@@ -423,7 +423,41 @@ progress::-webkit-progress-value {
 /* Projects Section */
 
 #projectsLoad {
-    background: var(--mainDarkBlue);
-    height: 50vh;
-    width: 100%;
+    width: 90%;
+    max-width: 1400px;
+    min-height: 60vh;
+    margin: 5vh auto;
+    padding: 4vh;
+    box-sizing: border-box;
+    background-color: var(--mainDarkBlue);
+    border: 1vh solid var(--mainBlackTrans)
+
+}
+
+.projectsLoadHeading {
+    color: var(--mainRed);
+    text-align: center;
+    font-size: 8vh;
+    margin-top: 1vh;
+    text-decoration: underline var(--mainBlue);
+    text-shadow: 2px 2px 4px var(--mainBlackTrans);;
+}
+
+.projectsLoadContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3vh;
+}
+
+.addProject {
+    border: 4px solid var(--mainWhite);
+    padding: 1vh;
+    color: var(--mainWhite);
+    width: 170px;
+    text-align: center;
+}
+
+.addProject:hover {
+    border: 4px solid var(--mainRed);
+    color: var(--mainRed);
 }
