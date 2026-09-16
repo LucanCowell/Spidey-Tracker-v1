@@ -461,11 +461,27 @@ progress::-webkit-progress-value {
     width: fit-content;
     margin: 0 auto 4vh;
     display: block;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
 
 .addProject:hover {
     border-color: var(--mainRed);
     color: var(--mainRed);
     transform: scale(1.05);
+    text-shadow: 2px 2px 4px var(--mainRedTrans);
+}
+
+.projectCard {
+    background-color: var(--mainWhite);
+    border: 4px solid var(--mainBlackTrans);
+    border-radius: 8px;
+    padding: 2vh;
+    min-height: 25vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 0 var(--mainBlackTrans);
+    transition: transform 0.5s ease;
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
 }
