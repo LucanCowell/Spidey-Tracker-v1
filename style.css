@@ -452,20 +452,20 @@ progress::-webkit-progress-value {
 
 .addProject {
     border: 4px solid var(--mainWhite);
-    padding: 2vh;
+    padding: 1vh;
     color: var(--mainWhite);
     background-color: var(--mainDarkBlue);
     width: 100%;
-    min-height: 25vh;
+    min-height: 10vh;
     font-family: var(--font-family);
-    font-size: 8vh;
+    font-size: 4vh;
     cursor: pointer;
     box-sizing: border-box;
 }
 
 .addProject:hover {
     background-color: var(--mainRed);
-    border-color: var(--mainRed);
+    border-color: var(--mainWhite);
     transform: scale(1.03);
     transition: all 0.3s ease;
 
