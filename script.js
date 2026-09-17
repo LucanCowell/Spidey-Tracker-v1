@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
 
         { name: "Calisthenics", area: "Fitness", difficulty: "Beginner", details: "Spend 10 Minutes practicing Calisthenic Form and Abilities" },
-        { name: "Home Gym", area: "Fitness", difficulty: "Intermediate", details: "Complete a variation of the 'CINDY' Workout: (5 Sit ups, 10 Squats, 15 Pushups)" },
+        { name: "Home Gym", area: "Fitness", difficulty: "Intermediate", details: "Complete a variation of the 'CINDY' Workout: (5 Curls, 10 Squats, 15 Pushups)" },
         { name: "Wood Cutting", area: "Fitness", difficulty: "Intermediate", details: "Cut some firewood with the Blockbuster if available" },
         { name: "Calisthenics", area: "Fitness", difficulty: "Beginner", details: "Spend 15 minutes practising calisthenics technique" },
         { name: "Calisthenics", area: "Fitness", difficulty: "Beginner", details: "Practise push-up technique for 10 minutes" },
@@ -985,6 +985,27 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
     });
+
+    // Project Form
+
+    const addProjectButton = document.querySelector(".addProject");
+    const projectModal = document.getElementById("projectModal");
+    const closeProjectForm = document.getElementById("closeProjectForm");
+    const projectForm = document.getElementById("projecyForm");
+
+    //Open Form
+
+    addProjectButton.addEventListener("click", () => {
+        projectModal.classList.add("active");
+    });
+
+    // Close Form
+    
+    closeProjectForm.addEventListener("click", () => {
+        projectModal.classList.remove("active");
+    });
+
+    
 
 });
 
