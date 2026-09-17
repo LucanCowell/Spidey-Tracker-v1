@@ -285,6 +285,7 @@ progress::-webkit-progress-value {
 
 .mission-container.is-flipped .mission-inner {
     transform: rotateY(180deg);
+    transition: all 1s;
 }
 
 .mission-side {
@@ -351,6 +352,7 @@ progress::-webkit-progress-value {
     width: 30vh;
     perspective: 1000px;
     position: relative;
+    transition: all 1s;
 }
 
 .mission-container::before {
