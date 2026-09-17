@@ -18,6 +18,7 @@
 
 body {
     background-color: var(--mainBlue);
+    margin: 0;
 }
 
 .height-100 {
