@@ -35,11 +35,56 @@
  <section id="projectsLoad">
     <h1 class="projectsLoadHeading"> List of Projects </h1>
     <div class="projectsLoadContainer">
-        <h2 class="addProject">Add a Project +</h2>
+        <button class="addProject">Add a Project +</button>
+        <!-- Projects will be added through JavaScript-->
 
     </div>
  </section>
 <!-- End of Load Projects Section-->
 
+
+<!-- New Project Form-->
+ <div class="projectModal" id="projectModal">
+    <div class="projectForm">
+        <button class="closeProjectForm" id="closeProjectForm">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <h2>Add New Project</h2>
+
+        <form id="projectForm">
+            <label for="projectName">ProjectName</label>
+            <input
+            type="text"
+            id="projectName"
+            placeholder="insert here"
+            required
+        >
+        <label for="projectDescription">Description</label>
+        <textarea
+            id="projectDescription"
+            placeholder="What is this project?"
+            required
+        ></textarea>
+
+        <label for="projectLanguage"> Languages / Technologies</label>
+        <input
+            type="text"
+            id="projectLanguage"
+            placeholder="e.g HTML, CSS"
+            required
+        >
+        <label for="projectStatus">Status</label>
+        <select id="projectStatus">
+            <option value="Planning">Planning</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
+        </select>
+
+        <button type="submit" class="saveProject">Create Project</button>
+
+        </form>
+    </div>
+ </div>
 </body>
 </html>
