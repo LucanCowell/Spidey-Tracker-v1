@@ -375,17 +375,15 @@ progress::-webkit-progress-value {
 .pos-9 { grid-column: 3; grid-row: 3; transform: rotate(-3deg); }
 
 .accept {
-    background: var(--mainBack);
-    color: var(--main);
     font-size: 2vh;
     background: none;
     border: none;
+    transition: all 1s;
 }
 
 .accept:hover {
     scale: 2;
     color: var(--mainGreen);
-    transition: all 1s;
     cursor:pointer;
     
 }
