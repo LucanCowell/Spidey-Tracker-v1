@@ -486,3 +486,101 @@ progress::-webkit-progress-value {
 .projectCard:hover {
     transform: translateY(-5px);
 }
+
+/* Project Modal */
+
+.projectModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: var(--mainBlackTrans);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.projectModal.active {
+    display: flex;
+}
+
+.projectForm {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    background-color: var(--mainWhite);
+    border: 1vh solid var(--mainDarkBlue);
+    box-shadow: 10px 10px 0 var(--mainBlackTrans);
+    padding: 4vh;
+    box-sizing:border-box;
+}
+
+.projectForm h2 {
+    text-align: center;
+    color: var(--mainRed);
+    font-family: var(--font-family);
+    font-size: 5vh;
+    margin-top: 0;
+}
+
+.projectForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.projectForm label {
+    color: var(--mainDarkBlue);
+    font-family: var(--font-family);
+    font-size: 2.5vh;
+    margin-top: 1vh;
+}
+
+.projectForm input,
+.projectForm textarea,
+.projectForm select {
+    font-family: var(--font-family);
+    font-size: 2vh;
+    padding: 1.5vh;
+    border: 3px solid var(--mainDarkBlue);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.projectForm textarea {
+    min-height: 15vh;
+    resize: vertical;
+}
+
+.saveProject {
+    margin-top: 2vh;
+    padding: 1.5vh;
+    background-color: var(--mainRed);
+    color: var(--mainWhite);
+    border: 3px solid var(--mainBlackTrans);
+    font-family: var(--font-family);
+    font-size: 2.5vh;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.saveProject:hover {
+    background-color: var(--mainDarkBlue);
+    transform: scale(1.03);
+}
+
+.closeProjectForm {
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    background: var(--mainRed);
+    color: var(--mainWhite);
+    border: 2px solid var(--mainBlackTrans);
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+.closeProjectForm:hover {
+    background-color: var(--mainDarkBlue);
+}
