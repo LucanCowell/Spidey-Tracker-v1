@@ -1030,7 +1030,7 @@ document.addEventListener("DOMContentLoaded", () => {
         projectCard.classList.add("projectCard");
         projectCard.innerHTML = `
 
-        <img src="img/spider-logo-v1.png">
+        <img src="/img/spider-logo-v1.png" class="projectLogo">
 
         <h2>${projectName}</h2>
 
