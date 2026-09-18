@@ -594,8 +594,14 @@ progress::-webkit-progress-value {
 
 .projectCard {
     background: var(--mainRed);
-    font-weight: bold;
     font-size: 125%;
     color: var(--mainWhite);
     text-shadow: 5px 0px 10px var(--mainAqua);
+
+}
+
+.projectLogo {
+    width: 30px;
+    height: 45px;
+    margin-bottom: 1px;
 }
