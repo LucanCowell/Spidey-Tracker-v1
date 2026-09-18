@@ -991,7 +991,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const addProjectButton = document.querySelector(".addProject");
     const projectModal = document.getElementById("projectModal");
     const closeProjectForm = document.getElementById("closeProjectForm");
-    const projectForm = document.getElementById("projecyForm");
+    const projectForm = document.getElementById("projectForm");
 
     //Open Form
 
@@ -1004,6 +1004,57 @@ document.addEventListener("DOMContentLoaded", () => {
     closeProjectForm.addEventListener("click", () => {
         projectModal.classList.remove("active");
     });
+
+    projectModal.addEventListener("click", () => {
+        if (event.target === projectModal) {
+            projectModal.classList.remove("active");
+
+        }
+    });
+
+    //Submit the Form
+
+    projectForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const projectName =
+            document.getElementById("projectName").value;
+        const projectDescription =
+            document.getElementById("projectDescription").value;
+        const projectLanguage =
+            document.getElementById("projectLanguage").value;
+        const projectStatus =
+            document.getElementById("projectStatus").value;
+
+        const projectCard = document.createElement("div");
+        projectCard.classList.add("projectCard");
+        projectCard.innerHTML = `
+
+        <h2>${projectName}</h2>
+
+        <p>${projectDescription}</p>
+
+        <p>
+            <strong>Technologies:</strong>
+            ${projectLanguage}
+        </p>
+
+        <p>
+            <strong>Status:</strong>
+            ${projectStatus}
+        </p>
+
+    `;
+
+    projectModal.classList.remove("active");
+
+    document
+        .querySelector(".projectsLoadContainer")
+        .appendChild(projectCard);
+
+
+    });
+
 
     
 
