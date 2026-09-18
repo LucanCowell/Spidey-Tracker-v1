@@ -596,4 +596,6 @@ progress::-webkit-progress-value {
     background: var(--mainRed);
     font-weight: bold;
     font-size: 125%;
+    color: var(--mainWhite);
+    text-shadow: 5px 0px 10px var(--mainAqua);
 }
