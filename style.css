@@ -1,5 +1,6 @@
 :root {
     --mainBlue: #1d699c;
+    --mainAqua: #06ddb2;
     --mainBlueTrans: rgba(0, 157, 255, 0.644);
     --mainDarkBlue: #0f3d5e;
     --mainRed: #dc321c;
@@ -51,6 +52,12 @@ body {
     margin-top: 0;
     text-shadow: 12px 20px 4px rgba(0, 0, 0, 0.5);
 }
+
+/* Neon Effect
+
+text-shadow: 5px 5px 20px rgba(44, 240, 227, 0.5);
+
+*/
 
 .subHeader {
     text-align: center;
@@ -583,4 +590,10 @@ progress::-webkit-progress-value {
 
 .closeProjectForm:hover {
     background-color: var(--mainDarkBlue);
+}
+
+.projectCard {
+    background: var(--mainRed);
+    font-weight: bold;
+    font-size: 125%;
 }
