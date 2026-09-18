@@ -1030,6 +1030,8 @@ document.addEventListener("DOMContentLoaded", () => {
         projectCard.classList.add("projectCard");
         projectCard.innerHTML = `
 
+        <img src="img/spider-logo-v1.png">
+
         <h2>${projectName}</h2>
 
         <p>${projectDescription}</p>
@@ -1047,6 +1049,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     projectModal.classList.remove("active");
+    projectForm.reset();
 
     document
         .querySelector(".projectsLoadContainer")
