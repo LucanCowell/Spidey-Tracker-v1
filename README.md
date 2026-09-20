@@ -5,4 +5,6 @@ As of 19/09/2026 this project has a functioning mission system that contributes 
 
 Each of these missions are randomly selected from a ramge of different missions with varying rates of difficulty. This results in random xp in a range based on the difficulty for the mission.
 
-In an additional tab on this spider tracker is the ability to record your own projects. At its current stage it allows you to record the title, description, area, and programming languages / technology of the project. 
+In an additional tab on this spider tracker is the ability to record your own projects. At its current stage it allows you to record the title, description, current stage of development, and programming languages / technology of the project. 
+
+In future, this projects tab will allow the user to edit each project, delete it when neccessary, as well as the potential to add more detail to each of the projects opposed to the limited area of the cards.
