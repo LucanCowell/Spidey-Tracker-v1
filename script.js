@@ -40,10 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Math Advanced", area: "Academics", difficulty: "Advanced", details: "Complete 5 challenging questions and write out full solutions" },
         { name: "Math Advanced", area: "Academics", difficulty: "Advanced", details: "Analyse a previous exam and identify your 3 biggest weaknesses" },
 
-
-        // =========================
+    
         // MATH EXTENSION
-        // =========================
+    
 
         { name: "Math Extension", area: "Academics", difficulty: "Advanced", details: "Spend 1 hour reviwing 3D Trigonometry" },
         { name: "Math Extension", area: "Academics", difficulty: "Intermediate", details: "Spend 30 reviwing the Binomial Theorum" },
@@ -442,8 +441,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let currentXP =
         parseInt(localStorage.getItem("spideyXP")) || 0;
-
-
     
     // SKILL STATS
     
@@ -986,77 +983,212 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-    // Project Form
-
-    const addProjectButton = document.querySelector(".addProject");
-    const projectModal = document.getElementById("projectModal");
-    const closeProjectForm = document.getElementById("closeProjectForm");
-    const projectForm = document.getElementById("projectForm");
-
-    //Open Form
-
-    addProjectButton.addEventListener("click", () => {
-        projectModal.classList.add("active");
-    });
-
-    // Close Form
     
-    closeProjectForm.addEventListener("click", () => {
-        projectModal.classList.remove("active");
-    });
+// PROJECT FORM
 
-    projectModal.addEventListener("click", () => {
-        if (event.target === projectModal) {
-            projectModal.classList.remove("active");
 
-        }
-    });
+const addProjectButton =
+    document.querySelector(".addProject");
 
-    //Submit the Form
+const projectModal =
+    document.getElementById("projectModal");
 
-    projectForm.addEventListener("submit", (event) => {
-        event.preventDefault();
+const closeProjectForm =
+    document.getElementById("closeProjectForm");
 
-        const projectName =
-            document.getElementById("projectName").value;
-        const projectDescription =
-            document.getElementById("projectDescription").value;
-        const projectLanguage =
-            document.getElementById("projectLanguage").value;
-        const projectStatus =
-            document.getElementById("projectStatus").value;
+const projectForm =
+    document.getElementById("projectForm");
 
-        const projectCard = document.createElement("div");
+
+
+// PROJECT STORAGE
+
+
+let projects =
+    JSON.parse(
+        localStorage.getItem("spideyProjects")
+    ) || [];
+
+
+
+// SAVE PROJECTS
+
+
+function saveProjects() {
+
+    localStorage.setItem(
+        "spideyProjects",
+        JSON.stringify(projects)
+    );
+
+}
+
+
+
+// RENDER PROJECTS
+
+function renderProjects() {
+
+    const container =
+        document.querySelector(".projectsLoadContainer");
+
+
+    // Remove old cards
+
+    container
+        .querySelectorAll(".projectCard")
+        .forEach(card => card.remove());
+
+
+    // Create cards from saved projects
+
+    projects.forEach(project => {
+
+        const projectCard =
+            document.createElement("div");
+
         projectCard.classList.add("projectCard");
+
+
         projectCard.innerHTML = `
 
-        <img src="/img/spider-logo-v1.png" class="projectLogo">
+            <img
+                src="/img/spider-logo-v1.png"
+                class="projectLogo"
+            >
 
-        <h2>${projectName}</h2>
+            <h2>${project.name}</h2>
 
-        <p>${projectDescription}</p>
+            <p>${project.description}</p>
 
-        <p>
-            <strong>Technologies:</strong>
-            ${projectLanguage}
-        </p>
+            <p>
+                <strong>Technologies:</strong>
+                ${project.language}
+            </p>
 
-        <p>
-            <strong>Status:</strong>
-            ${projectStatus}
-        </p>
+            <p>
+                <strong>Status:</strong>
+                ${project.status}
+            </p>
 
-    `;
+        `;
 
-    projectModal.classList.remove("active");
-    projectForm.reset();
 
-    document
-        .querySelector(".projectsLoadContainer")
-        .appendChild(projectCard);
-
+        container.appendChild(projectCard);
 
     });
+
+}
+
+
+
+// OPEN FORM
+
+
+addProjectButton.addEventListener("click", () => {
+
+    projectModal.classList.add("active");
+
+});
+
+
+
+// CLOSE FORM
+
+
+closeProjectForm.addEventListener("click", () => {
+
+    projectModal.classList.remove("active");
+
+});
+
+
+
+// CLOSE WHEN CLICKING OUTSIDE
+
+
+projectModal.addEventListener("click", (event) => {
+
+    if (event.target === projectModal) {
+
+        projectModal.classList.remove("active");
+
+    }
+
+});
+
+
+
+// SUBMIT FORM
+
+
+projectForm.addEventListener("submit", (event) => {
+
+    event.preventDefault();
+
+
+    // Get form values
+
+    const projectName =
+        document.getElementById("projectName").value;
+
+    const projectDescription =
+        document.getElementById("projectDescription").value;
+
+    const projectLanguage =
+        document.getElementById("projectLanguage").value;
+
+    const projectStatus =
+        document.getElementById("projectStatus").value;
+
+
+    // Create project object
+
+    const newProject = {
+
+        name: projectName,
+
+        description: projectDescription,
+
+        language: projectLanguage,
+
+        status: projectStatus
+
+    };
+
+
+    // Add to projects array
+
+    projects.push(newProject);
+
+
+    // Save to localStorage
+
+    saveProjects();
+
+
+    // Display project
+
+    renderProjects();
+
+
+    // Close form
+
+    projectModal.classList.remove("active");
+
+
+    // Reset form
+
+    projectForm.reset();
+
+});
+
+
+
+// LOAD SAVED PROJECTS
+
+
+renderProjects();
 
 
     
