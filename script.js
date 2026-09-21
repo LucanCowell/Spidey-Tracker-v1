@@ -1073,11 +1073,11 @@ function renderProjects() {
 
             <div class="projectActions">
                 <button class= "editProject">
-                    Edit
+                    <i class="fas fa-pen"></i>
                 </button>
 
                 <button class= "deleteProject">
-                    Trash
+                    <i class="fas fa-trash"></i>
                 </button>
             </div>
 
@@ -1089,6 +1089,9 @@ function renderProjects() {
     });
 
 }
+
+// EDIT BUTTON
+
 
 
 
