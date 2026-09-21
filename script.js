@@ -1071,6 +1071,16 @@ function renderProjects() {
                 ${project.status}
             </p>
 
+            <div class="projectActions">
+                <button class= "editProject">
+                    Edit
+                </button>
+
+                <button class= "deleteProject">
+                    Trash
+                </button>
+            </div>
+
         `;
 
 
