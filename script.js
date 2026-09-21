@@ -1148,6 +1148,8 @@ projectForm.addEventListener("submit", (event) => {
 
         name: projectName,
 
+        id: Date.now(),
+
         description: projectDescription,
 
         language: projectLanguage,
