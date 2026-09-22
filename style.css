@@ -419,7 +419,8 @@ progress::-webkit-progress-value {
 
 .journalLeft {
     background: var(--mainBrown);
-    height: 905px;
+    border: 1vh solid var(--mainBrown);
+    height: 90vh;
     width: 40vh;
 }
 
