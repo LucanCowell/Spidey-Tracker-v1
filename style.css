@@ -409,6 +409,7 @@ progress::-webkit-progress-value {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 .journal {
