@@ -12,6 +12,7 @@
     --mainWhite: #ffffff;
     --mainTan: #eac285;
     --mainBrown: #4a3009;
+    --mainLightBrown: #ae9570;
     --mainGreen: #07ad1a;
     --mainBlack: #000;
     --mainBook: #e7e495;
@@ -407,6 +408,7 @@ progress::-webkit-progress-value {
 .journalContainer {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .journal {
@@ -418,10 +420,11 @@ progress::-webkit-progress-value {
 }
 
 .journalLeft {
-    background: var(--mainBrown);
+    background: var(--mainLightBrown);
     border: 1vh solid var(--mainBrown);
+    border-right: 1vh solid var(--mainLightBrown);
     height: 90vh;
-    width: 40vh;
+    width: 45vh;
 }
 
 /* Projects Section */
