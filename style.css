@@ -405,27 +405,22 @@ progress::-webkit-progress-value {
 /* Journal CSS */
 
 .journalContainer {
-    width: 90vh;
-    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.journal {
     background: var(--mainBook);
     border: 1vh solid var(--mainBrown);
-    margin-top: 5vh;
-    display: flex;
+    width: 90vh;
+    height: 90vh;
+    overflow:auto;
 }
 
 .journalLeft {
-    width: 20vh;
-    height: 90vh;
-    background: var(--mainBlackTrans);
-    border-right: 1vh solid var(--mainBrown);
-}
-
-.journalUnderline {
-    width: 60vh;
-    height: 5px;
-    background: var(--mainBlackTrans);
-    margin-left: 5vh;
-    margin-top: 30vh;
+    background: var(--mainBrown);
+    height: 905px;
+    width: 40vh;
 }
 
 /* Projects Section */
