@@ -419,6 +419,13 @@ progress::-webkit-progress-value {
     overflow:auto;
 }
 
+.journalHeading {
+    text-align:center;
+    margin-top: 5vh;
+    font-size: 6vh;
+    text-decoration: underline;
+}
+
 .journalLeft {
     background: var(--mainLightBrown);
     border: 1vh solid var(--mainBrown);
