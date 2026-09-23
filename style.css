@@ -427,6 +427,15 @@ progress::-webkit-progress-value {
     text-decoration: underline;
 }
 
+.journalEntree {
+    background: var(--mainWhite);
+    width: 50vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10vh;
+    border: 1vh solid var(--mainBlack);
+}
+
 .journalLeft {
     background: var(--mainLightBrown);
     border: 1vh solid var(--mainBrown);
