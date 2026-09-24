@@ -442,6 +442,8 @@ progress::-webkit-progress-value {
     max-width: 80vh;
     background-color: var(--mainBook);
     font-family: var(--mainFont-Family);
+    font-size: 150%;
+    padding: 1vh;
 
 }
 
