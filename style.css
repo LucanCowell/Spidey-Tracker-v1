@@ -437,9 +437,11 @@ progress::-webkit-progress-value {
     width: 50vh;
     height: 60vh;
     margin: auto;
-    border: 1vh solid var(--mainBlack);
+    border: 1vh solid var(--mainBrown);
     min-width: 50vh;
     max-width: 80vh;
+    background-color: var(--mainBook);
+    font-family: var(--mainFont-Family);
 
 }
 
