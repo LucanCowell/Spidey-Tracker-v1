@@ -428,12 +428,19 @@ progress::-webkit-progress-value {
 }
 
 .journalEntree {
-    background: var(--mainWhite);
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vh;
+}
+
+.journalText {
     width: 50vh;
     height: 60vh;
     margin: auto;
-    margin-top: 10vh;
     border: 1vh solid var(--mainBlack);
+    min-width: 50vh;
+    max-width: 80vh;
+
 }
 
 .journalLeft {
