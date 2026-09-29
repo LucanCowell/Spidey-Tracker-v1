@@ -82,20 +82,20 @@ text-shadow: 5px 5px 20px rgba(44, 240, 227, 0.5);
 .navbar {
     display: flex;
     align-items: center;
-    width: 100%;
     padding: 1vh 4vh;
     box-sizing: border-box;
     position: relative;
 }
 
 .nav-links {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
     background-color: var(--mainBlue);
+    width: 100%;
 }
 
 .nav-links li:hover {
@@ -105,7 +105,7 @@ text-shadow: 5px 5px 20px rgba(44, 240, 227, 0.5);
 }
 
 .nav-links li {
-    margin: 0 25px;
+    margin: 0 2vw;
     background-color: var(--mainRed);
     padding: 10px 20px;
     border: 3px solid var(--mainBlackTrans);
@@ -124,6 +124,7 @@ text-shadow: 5px 5px 20px rgba(44, 240, 227, 0.5);
     align-items: center;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    width: 100%;
 }
 
 .xpHeader {
@@ -189,6 +190,7 @@ progress::-webkit-progress-value {
     background-color: var(--mainDarkBlue);
     padding: 2vh;
     border: 1vh solid var(--mainBlackTrans);
+    width: 80%;
 }
 
 .xpLevel {
