@@ -248,6 +248,7 @@ progress::-webkit-progress-value {
     border: none;
     font-family: var(--font-family);
     font-weight:bolder;
+    width: 40vw;
 }
  
 .spideyInformation {
