@@ -1210,6 +1210,19 @@ renderProjects();
 
 });
 
+// Spidey Name
+
+const inputField = document.getElementsByClassName('spideyName') [0];
+inputField.addEventListener('input', (event) => {
+    localStorage.setItem('storedName', event.target.value);
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+    const savedName = localStorage.getItem('storedName');
+    if (savedName) {
+        inputField.value = savedName;
+    }
+});
 
 
 // RESET LEVEL / STATS
