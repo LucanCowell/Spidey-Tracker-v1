@@ -239,7 +239,11 @@ progress::-webkit-progress-value {
 }
 
 .spideyHeading {
-    font-size: 6vh;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0;
 }
 
 .spideyName {
@@ -248,7 +252,7 @@ progress::-webkit-progress-value {
     border: none;
     font-family: var(--font-family);
     font-weight:bolder;
-    width: 40vw;
+    width: 30vw;
 }
  
 .spideyInformation {
@@ -775,11 +779,18 @@ progress::-webkit-progress-value {
     }
 
     .spideyName {
-        width: 100%;
-        max-width: 100%;
+        width: 90%;
+        max-width: calc(100% - 2rem);
         font-size: clamp(1.5rem, 7vw, 2.5rem);
         text-align: center;
+        margin: 0 auto;
         box-sizing: border-box;
+        display: block;
+    }
+
+    .spideyName:focus {
+        outline: none;
+        border: none;
     }
 
     .spideyStats {
