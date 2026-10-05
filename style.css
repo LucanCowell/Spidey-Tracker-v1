@@ -444,7 +444,7 @@ progress::-webkit-progress-value {
 .journalEntree {
     align-items: center;
     justify-content: center;
-    margin-left: 2vh;
+    display: flex;
 }
 
 .journalText {
@@ -458,6 +458,8 @@ progress::-webkit-progress-value {
     font-family: var(--mainFont-Family);
     font-size: 150%;
     padding: 1vh;
+    overflow-wrap: break-word;
+    resize: none;
 
 }
 
