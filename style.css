@@ -471,6 +471,24 @@ progress::-webkit-progress-value {
     width: 45vh;
 }
 
+.saveJournal {
+    display: block;
+    margin: 2vh auto;
+    padding: 1vh 2vh;
+    background-color: var(--mainRed);
+    color: var(--mainWhite);
+    border: 3px solid var(--mainBlackTrans);
+    font-family: var(--font-family);
+    font-size: 2.5vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.saveJournal:hover {
+    background-color: var(--mainDarkBlue);
+    transform: scale(1.03);
+}
+
 /* Projects Section */
 
 #projectsLoad {
