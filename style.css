@@ -448,7 +448,7 @@ progress::-webkit-progress-value {
 }
 
 .journalText {
-    width: 50vh;
+    width: 70vh;
     height: 60vh;
     margin: auto;
     border: 1vh solid var(--mainBrown);
