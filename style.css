@@ -469,6 +469,9 @@ progress::-webkit-progress-value {
     border-right: 1vh solid var(--mainLightBrown);
     height: 90vh;
     width: 45vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .saveJournal {
@@ -498,6 +501,18 @@ progress::-webkit-progress-value {
     opacity: 0.1;
 }
 
+.journalDecorationObject {
+    width: 250px;
+    height: 250px;
+    background-color: var(--mainTan);
+    position: absolute;
+    border: 1vh solid var(--mainBlackTrans);
+    transform: rotate(5deg);
+    background-image: url(../img/photo1.jpg);
+    background-size: cover;
+
+}
+
 /* Projects Section */
 
 #projectsLoad {
@@ -508,7 +523,8 @@ progress::-webkit-progress-value {
     padding: 4vh;
     box-sizing: border-box;
     background-color: var(--mainDarkBlue);
-    border: 1vh solid var(--mainBlackTrans)
+    border: 1vh solid var(--mainBlackTrans);
+    
 
 }
 
