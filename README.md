@@ -8,3 +8,5 @@ Each of these missions are randomly selected from a ramge of different missions 
 In an additional tab on this spider tracker is the ability to record your own projects. At its current stage it allows you to record the title, description, current stage of development, and programming languages / technology of the project. These projects are saved to local storage meaning that these projects will not be lost when refreshing the page or closing the tab.
 
 In future, this projects tab will allow the user to edit each project, delete it when neccessary, as well as the potential to add more detail to each of the projects opposed to the limited area of the cards.
+
+This Spidey Tracker also now as of 8/10/2026 has the ability for the users to input their own journal entrees in its designated page and in future works, the users journal will be stored with the aligned date, so that the users can view their past notes.
