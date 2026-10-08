@@ -514,6 +514,19 @@ progress::-webkit-progress-value {
 
 }
 
+.journalDecorationObject2 {
+    width: 250px;
+    height: 250px;
+    background-color: var(--mainTan);
+    position: absolute;
+    border: 1vh solid var(--mainBlackTrans);
+    transform: rotate(-5deg);
+    background-image: url(../img/photo1.jpg);
+    background-size: cover;
+    margin-top: 30vh;
+
+}
+
 /* Projects Section */
 
 #projectsLoad {
