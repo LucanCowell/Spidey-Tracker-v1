@@ -510,6 +510,7 @@ progress::-webkit-progress-value {
     transform: rotate(5deg);
     background-image: url(../img/photo1.jpg);
     background-size: cover;
+    margin-bottom: 50vh;
 
 }
 
