@@ -511,6 +511,7 @@ progress::-webkit-progress-value {
     background-image: url(../img/photo1.jpg);
     background-size: cover;
     margin-bottom: 50vh;
+    margin-right: 4vh;
 
 }
 
@@ -524,6 +525,7 @@ progress::-webkit-progress-value {
     background-image: url(../img/photo1.jpg);
     background-size: cover;
     margin-top: 30vh;
+    margin-left: 10vh;
 
 }
 
