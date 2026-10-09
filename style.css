@@ -599,11 +599,23 @@ progress::-webkit-progress-value {
 .deleteProject {
     background-color: var(--mainRed);
     color: var(--mainWhite);
+    transition: all 0.3s ease;
+}
+
+.deleteProject:hover {
+    color: var(--mainRed);
+    background-color: var(--mainWhite);
 }
 
 .editProject {
     background-color: var(--mainBlue);
     color: var(--mainWhite);
+    transition: all 0.3s ease;
+}
+
+.editProject:hover {
+    color: var(--mainBlue);
+    background-color: var(--mainWhite);
 }
 
 /* Project Modal */
