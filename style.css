@@ -502,8 +502,8 @@ progress::-webkit-progress-value {
 }
 
 .journalDecorationObject {
-    width: 250px;
-    height: 250px;
+    width: 13%;
+    height: 25%;
     background-color: var(--mainTan);
     position: absolute;
     border: 1vh solid var(--mainBlackTrans);
@@ -516,8 +516,8 @@ progress::-webkit-progress-value {
 }
 
 .journalDecorationObject2 {
-    width: 250px;
-    height: 250px;
+    width: 13%;
+    height: 25%;
     background-color: var(--mainTan);
     position: absolute;
     border: 1vh solid var(--mainBlackTrans);
