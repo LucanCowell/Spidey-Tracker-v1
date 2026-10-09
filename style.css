@@ -596,6 +596,16 @@ progress::-webkit-progress-value {
     transform: translateY(-5px);
 }
 
+.deleteProject {
+    background-color: var(--mainRed);
+    color: var(--mainWhite);
+}
+
+.editProject {
+    background-color: var(--mainBlue);
+    color: var(--mainWhite);
+}
+
 /* Project Modal */
 
 .projectModal {
