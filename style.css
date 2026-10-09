@@ -605,6 +605,7 @@ progress::-webkit-progress-value {
 .deleteProject:hover {
     color: var(--mainRed);
     background-color: var(--mainWhite);
+    scale: 1.1;
 }
 
 .editProject {
@@ -616,6 +617,7 @@ progress::-webkit-progress-value {
 .editProject:hover {
     color: var(--mainBlue);
     background-color: var(--mainWhite);
+    scale: 1.1;
 }
 
 /* Project Modal */
