@@ -269,6 +269,14 @@ progress::-webkit-progress-value {
     display: flex;
 }
 
+#identity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
 /* Missions CSS */
 
 .mixedHeader {
