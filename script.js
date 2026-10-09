@@ -1057,7 +1057,7 @@ function renderProjects() {
                 class="projectLogo"
             >
 
-            <h2>${project.name}</h2>
+            <h2 class="projectName">${project.name}</h2>
 
             <p>${project.description}</p>
 

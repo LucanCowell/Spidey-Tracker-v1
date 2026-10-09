@@ -620,6 +620,17 @@ progress::-webkit-progress-value {
     scale: 1.1;
 }
 
+.projectName {
+    font-size: 5vh;
+    font-weight: bold;
+    color: var(--mainBlue);
+    margin-bottom: 2vh;
+    position: relative;
+    margin: 0 auto;
+    text-shadow: none;
+    text-align: center;
+}
+
 /* Project Modal */
 
 .projectModal {
