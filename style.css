@@ -380,7 +380,7 @@ progress::-webkit-progress-value {
 
 .mission-container {
     height: 15rem;
-    width: 20rem;
+    width: 21rem;
     perspective: 1000px;
     position: relative;
     transition: all 1s;
@@ -424,7 +424,6 @@ progress::-webkit-progress-value {
 .xp-reward {
     color: var(--mainBlue);
 }
-
 
 /* Journal CSS */
 
@@ -537,7 +536,6 @@ progress::-webkit-progress-value {
     margin-left: 10vh;
 
 }
-
 
 /* Projects Section */
 
@@ -794,6 +792,8 @@ progress::-webkit-progress-value {
     .subHeader {
         font-size: clamp(3.5rem, 20vw, 6rem);
         line-height: 0.9rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
         text-shadow: 6px 8px 3px rgba(0, 0, 0, 0.5);
     }
 
