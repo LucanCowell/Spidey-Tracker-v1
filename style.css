@@ -284,8 +284,8 @@ progress::-webkit-progress-value {
 }
 
 .boardContainer {
-    min-width: 60%;
-    max-width: 70%;
+    min-width: 70%;
+    max-width: 80%;
     height: 86vh;
     background-color: var(--mainTan);
     border: 3vh solid var(--mainBrown);
