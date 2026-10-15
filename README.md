@@ -10,3 +10,5 @@ In an additional tab on this spider tracker is the ability to record your own pr
 In future, this projects tab will allow the user to edit each project, delete it when neccessary, as well as the potential to add more detail to each of the projects opposed to the limited area of the cards.
 
 This Spidey Tracker also now as of 8/10/2026 has the ability for the users to input their own journal entrees in its designated page and in future works, the users journal will be stored with the aligned date, so that the users can view their past notes.
+
+As of the 15/10/2026 the major change in the works is ensuring that the website is responsive and works for all screen sizes.
