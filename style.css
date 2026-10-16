@@ -606,7 +606,7 @@ progress::-webkit-progress-value {
 }
 
 .projectCard:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2vw);
 }
 
 .deleteProject {
