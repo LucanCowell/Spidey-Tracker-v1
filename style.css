@@ -380,11 +380,12 @@ progress::-webkit-progress-value {
 
 .mission-container {
     font-size: 1rem;
-    min-height: 14rem;
-    max-height: 18rem;
-    height: 16rem;
+    min-height: 6vw;
+    max-height: 20vw;
+    height: 15vw;
     max-width: 21rem;
     min-width: 17rem;
+    width: 19rem;
     perspective: 1000px;
     position: relative;
     transition: all 1s;
