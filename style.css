@@ -644,6 +644,14 @@ progress::-webkit-progress-value {
     text-align: center;
 }
 
+.projectText {
+    font-size: 2.5vh;
+    color: var(--mainDarkBlue);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-shadow: none;
+}
+
 /* Project Modal */
 
 .projectModal {

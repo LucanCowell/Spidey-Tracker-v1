@@ -1058,18 +1058,23 @@ function renderProjects() {
             >
 
             <h2 class="projectName">${project.name}</h2>
+            <div class="projectText">
+    
+                <p>
+                    <strong>Description:</strong>
+                    ${project.description}
+                </p>
 
-            <p>${project.description}</p>
+                <p>
+                    <strong>Technologies:</strong>
+                    ${project.language}
+                </p>
 
-            <p>
-                <strong>Technologies:</strong>
-                ${project.language}
-            </p>
-
-            <p>
-                <strong>Status:</strong>
-                ${project.status}
-            </p>
+                <p>
+                    <strong>Status:</strong>
+                    ${project.status}
+                </p>
+            </div>
 
             <div class="projectActions">
                 <button class= "editProject">
@@ -1227,5 +1232,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
 // RESET LEVEL / STATS
 
-// localStorage.clear();
-// location.reload();
+//localStorage.clear();
+//location.reload();
