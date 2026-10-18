@@ -383,8 +383,8 @@ progress::-webkit-progress-value {
     min-height: 6vw;
     max-height: 20vw;
     height: 15vw;
-    max-width: 21rem;
-    min-width: 17rem;
+    max-width: 20vw;
+    min-width: 14vw;
     width: 19rem;
     perspective: 1000px;
     position: relative;
@@ -428,6 +428,10 @@ progress::-webkit-progress-value {
 
 .xp-reward {
     color: var(--mainBlue);
+}
+
+.missionText {
+    font-size: 0.9vw;
 }
 
 /* Journal CSS */

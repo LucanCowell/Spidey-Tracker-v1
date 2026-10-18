@@ -639,12 +639,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     <!-- FRONT SIDE -->
 
-                    <div class="mission-side mission-front">
-
+                <div class="mission-side mission-front">
+                    <div class="missionText">
                         <button class="flip-btn">
                             <i class="fa-solid fa-rotate"></i>
                         </button>
-
+                
                         <h1>${quest.name}</h1>
 
                         <h2
@@ -659,13 +659,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         <button class="accept">
                             <i class="fa-solid fa-check"></i>
                         </button>
-
                     </div>
+                </div>
 
 
                     <!-- BACK SIDE -->
 
                     <div class="mission-side mission-back">
+
+                    <div class="missionText">
 
                         <button class="flip-btn back-flip">
                             <i class="fa-solid fa-arrow-left"></i>
@@ -678,6 +680,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h2>
                             Difficulty: ${quest.difficulty}
                         </h2>
+
+                        </div>
 
                     </div>
 
