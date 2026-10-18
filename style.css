@@ -418,7 +418,7 @@ progress::-webkit-progress-value {
 .pos-9 { grid-column: 3; grid-row: 3; transform: rotate(-3deg); }
 
 .accept {
-    font-size: 1rem;
+    font-size: 0.3rem;
     background: none;
     border: none;
     transition: all 1s;
