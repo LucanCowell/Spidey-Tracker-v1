@@ -967,6 +967,18 @@ progress::-webkit-progress-value {
     align-items: center;
     font-size: 0.3rem;
     z-index: 10;
+    }
+
+    .mission-container {
+    font-size: 1rem;
+    min-height: 22vw;
+    max-height: 30vw;
+    max-width: 24vw;
+    min-width: 19vw;
+    width: 19rem;
+    perspective: 1000px;
+    position: relative;
+    transition: all 1s;
 }
 
 }
