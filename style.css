@@ -946,8 +946,8 @@ progress::-webkit-progress-value {
 
     .back-flip {
     background: var(--mainBlue);
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 2vw;
+    height: 4vw;
     font-size: 0.3rem;
     }
 
@@ -959,8 +959,8 @@ progress::-webkit-progress-value {
     color: white;
     border: 2px solid var(--mainBlackTrans);
     border-radius: 4px;
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 2vw;
+    height: 4vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -980,7 +980,6 @@ progress::-webkit-progress-value {
     }
 
     .missionText {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     }
-
 }
