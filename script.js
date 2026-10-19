@@ -401,8 +401,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Breadboarding", area: "Electrical Engineering", difficulty: "Intermediate", details: "Build a simple LED circuit on a breadboard" },
         { name: "Breadboarding", area: "Electrical Engineering", difficulty: "Advanced", details: "Build and troubleshoot a multi-component circuit on a breadboard" },
 
-        { name: "Circuit Troubleshooting", area: "Electrical Engineering", difficulty: "Intermediate", details: "Identify possible causes of failure in a simple electronic circuit" },
-        { name: "Circuit Troubleshooting", area: "Electrical Engineering", difficulty: "Advanced", details: "Diagnose a deliberately faulty circuit and identify the failed connection or component" },
+        { name: "Circuit Trouble Shooting", area: "Electrical Engineering", difficulty: "Intermediate", details: "Identify possible causes of failure in a simple electronic circuit" },
+        { name: "Circuit Trouble Shooting", area: "Electrical Engineering", difficulty: "Advanced", details: "Diagnose a deliberately faulty circuit and identify the failed connection or component" },
 
         { name: "Multimeter", area: "Electrical Engineering", difficulty: "Beginner", details: "Learn what voltage, resistance, and continuity measurements tell you" },
         { name: "Multimeter", area: "Electrical Engineering", difficulty: "Intermediate", details: "Practise interpreting voltage and resistance measurements from a circuit" },
