@@ -982,4 +982,21 @@ progress::-webkit-progress-value {
     .missionText {
     font-size: 0.4rem;
     }
+
+    .boardContainer {
+    min-width: 60%;
+    max-width: 80%;
+    height: 95vh;
+    background-color: var(--mainTan);
+    border: 3vh solid var(--mainBrown);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+    margin: 0 auto;
+    margin-top: 5vh;
+    justify-items: center;
+}
 }
