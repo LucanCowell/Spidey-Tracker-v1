@@ -938,7 +938,7 @@ progress::-webkit-progress-value {
     }
 
     .accept {
-    font-size: 0.3rem;
+    font-size: 0.5rem;
     background: none;
     border: none;
     transition: all 1s;
@@ -970,8 +970,8 @@ progress::-webkit-progress-value {
     }
 
     .mission-container {
-    min-height: 35vw;
-    max-height: 50vw;
+    min-height: 45vw;
+    max-height: 60vw;
     max-width: 34vw;
     min-width: 20vw;
     perspective: 1000px;
@@ -980,6 +980,7 @@ progress::-webkit-progress-value {
     }
 
     .missionText {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     }
+
 }
