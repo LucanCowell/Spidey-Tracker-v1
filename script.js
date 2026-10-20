@@ -1065,17 +1065,17 @@ function renderProjects() {
             <div class="projectText">
     
                 <p>
-                    <strong>Description:</strong>
+                    <strong class="projectTextHeading">Description:</strong>
                     ${project.description}
                 </p>
 
                 <p>
-                    <strong>Technologies:</strong>
+                    <strong class="projectTextHeading">Technologies:</strong>
                     ${project.language}
                 </p>
 
                 <p>
-                    <strong>Status:</strong>
+                    <strong class="projectTextHeading">Status:</strong>
                     ${project.status}
                 </p>
             </div>

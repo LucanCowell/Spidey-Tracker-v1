@@ -670,7 +670,7 @@ progress::-webkit-progress-value {
 .projectName {
     font-size: 5vh;
     font-weight: bold;
-    color: var(--mainBlue);
+    color: var(--mainDarkBlue);
     padding-bottom: 2vh;
     position: relative;
     margin: 0 auto;
@@ -680,9 +680,17 @@ progress::-webkit-progress-value {
 
 .projectText {
     font-size: 2.5vh;
-    color: var(--mainDarkBlue);
+    color: var(--mainBlack);
     margin-top: 2vh;
     margin-bottom: 2vh;
+    text-shadow: none;
+}
+
+.projectTextHeading {
+    font-size: 3vh;
+    color: var(--mainDarkBlue);
+    margin-top: 2vh;
+    margin-bottom: 1vh;
     text-shadow: none;
 }
 
