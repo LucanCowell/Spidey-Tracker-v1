@@ -551,6 +551,30 @@ progress::-webkit-progress-value {
 
 }
 
+#previousEntries {
+    width: 90%;
+    max-width: 1400px;
+    min-height: 60vh;
+    margin: 5vh auto;
+    padding: 4vh;
+    box-sizing: border-box;
+    background-color: var(--mainDarkBlue);
+    border: 1vh solid var(--mainBlackTrans);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.previousEntriesHeading {
+    color: var(--mainRed);
+    text-align: center;
+    font-size: 8vh;
+    margin: 1vh 0 4vh;
+    text-decoration: underline var(--mainBlue);
+    text-shadow: 2px 2px 4px var(--mainBlackTrans);
+    font-weight:bold;
+}
+
 /* Projects Section */
 
 #projectsLoad {
