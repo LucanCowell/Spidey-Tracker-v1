@@ -11,4 +11,4 @@ In future, this projects tab will allow the user to edit each project, delete it
 
 This Spidey Tracker also now as of 8/10/2026 has the ability for the users to input their own journal entrees in its designated page and in future works, the users journal will be stored with the aligned date, so that the users can view their past notes.
 
-As of the 15/10/2026 the major change in the works is ensuring that the website is responsive and works for all screen sizes. This will allow for this site to not simply be accessible on all devices, but to look visually appealing and function as intended for all the possible screen sizes that users could access the content from.
+The skills section will involve the use of "trophies" and "achievements" based off the users completion of different tasks. This could involve completing 10 Academic Tasks or Completing their first task, etc.
