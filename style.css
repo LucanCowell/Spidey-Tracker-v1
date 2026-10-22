@@ -806,6 +806,42 @@ progress::-webkit-progress-value {
     margin-bottom: 1px;
 }
 
+/* Skills Section */
+
+#skillsSection {
+    width: 90%;
+    max-width: 1400px;
+    min-height: 70vh;
+    max-height: 100vh;
+    margin: 5vh auto;
+    padding: 4vh;
+    box-sizing: border-box;
+    background-color: var(--mainDarkBlue);
+    border: 1vh solid var(--mainBlackTrans);
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3vh;
+}
+
+.trophy1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+}
+
+#achievement {
+    font-size: 50px;
+    margin-top: 25px;
+    color: var(--mainRed);
+}
+
 @media (max-width: 425px) {
     body {
         width: 100%;
