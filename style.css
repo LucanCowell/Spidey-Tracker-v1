@@ -834,6 +834,12 @@ progress::-webkit-progress-value {
     background-color: var(--mainTan);
     margin: 0 auto;
     border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+}
+
+.trophy1:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
 }
 
 #achievement {
