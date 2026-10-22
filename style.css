@@ -826,7 +826,7 @@ progress::-webkit-progress-value {
     gap: 3vh;
 }
 
-.trophy1 {
+.trophy {
     width: 100px;
     height: 100px;
     border-radius: 80px;
@@ -835,9 +835,10 @@ progress::-webkit-progress-value {
     margin: 0 auto;
     border: 3px solid var(--mainRed);
     transition: all 0.5s ease;
+    margin-top: 2vh;
 }
 
-.trophy1:hover {
+.trophy:hover {
     scale: 1.2;
     transition: all 0.5s ease;
 }
