@@ -811,13 +811,16 @@ progress::-webkit-progress-value {
 #skillsSection {
     width: 90%;
     max-width: 1400px;
-    min-height: 70vh;
-    max-height: 100vh;
+    min-height: 110vh;
+    max-height: 110vh;
     margin: 5vh auto;
     padding: 4vh;
     box-sizing: border-box;
     background-color: var(--mainDarkBlue);
     border: 1vh solid var(--mainBlackTrans);
+    background-image: url(../img/web.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .skillsContainer {
