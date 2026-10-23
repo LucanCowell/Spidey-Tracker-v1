@@ -843,6 +843,24 @@ progress::-webkit-progress-value {
     transition: all 0.5s ease;
 }
 
+.trophy2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+    margin-top: 2vh;
+    margin-left: 20vw;
+}
+
+.trophy2:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+
 #achievement {
     font-size: 50px;
     margin-top: 25px;
