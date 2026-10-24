@@ -830,8 +830,8 @@ progress::-webkit-progress-value {
 }
 
 .trophy {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 80px;
     text-align: center;
     background-color: var(--mainTan);
@@ -854,8 +854,8 @@ progress::-webkit-progress-value {
 }
 
 .trophy2 {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 80px;
     text-align: center;
     background-color: var(--mainTan);
@@ -872,8 +872,8 @@ progress::-webkit-progress-value {
 }
 
 .trophy3 {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 80px;
     text-align: center;
     background-color: var(--mainTan);
@@ -890,8 +890,8 @@ progress::-webkit-progress-value {
 }
 
 .trophy4 {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 80px;
     text-align: center;
     background-color: var(--mainTan);
@@ -908,8 +908,8 @@ progress::-webkit-progress-value {
 }
 
 .trophy5 {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 80px;
     text-align: center;
     background-color: var(--mainTan);
@@ -925,8 +925,8 @@ progress::-webkit-progress-value {
 }
 
 .trophy6 {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 80px;
     text-align: center;
     background-color: var(--mainTan);
