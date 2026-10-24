@@ -1173,4 +1173,117 @@ progress::-webkit-progress-value {
     margin-top: 5vh;
     justify-items: center;
 }
+
+.trophy {
+    width: 10px;
+    height: 10px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+    margin-top: 2vh;
+}
+
+.trophy:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.trophy2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+    margin-top: 2vh;
+    margin-left: 20vw;
+}
+
+.trophy2:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+
+.trophy3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+    margin-top: 2vh;
+    margin-right: 20vw;
+}
+
+.trophy3:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+
+.trophy4 {
+    width: 10px;
+    height: 10px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+    margin-top: 2vh;
+    margin-right: 10vw;
+}
+
+.trophy4:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+
+.trophy5 {
+    width: 10px;
+    height: 10px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+    margin-top: 2vh;
+}
+
+.trophy5:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+
+.trophy6 {
+    width: 10px;
+    height: 10px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: var(--mainTan);
+    margin: 0 auto;
+    border: 3px solid var(--mainRed);
+    transition: all 0.5s ease;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+
+.trophy6:hover {
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
 }
