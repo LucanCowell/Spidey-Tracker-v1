@@ -100,7 +100,7 @@ text-shadow: 5px 5px 20px rgba(44, 240, 227, 0.5);
 
 .nav-links li:hover {
     background-color: var(--mainDarkBlue);
-    scale: 1.1;
+    scale: 1.2;
     transition: all 0.6s ease-out;
 }
 
@@ -950,7 +950,49 @@ progress::-webkit-progress-value {
     text-decoration: underline var(--mainBlue);
     text-shadow: 2px 2px 4px var(--mainBlackTrans);
     font-weight:bold;
-    margin-bottom: 7vh;
+    margin-bottom: 3vh;
+}
+
+.skillsSubHeader {
+    color: var(--mainWhite);
+    text-align: center;
+    font-size: 5vh;
+    margin: 1vh 0 4vh;
+    text-decoration: underline var(--mainRed);
+    text-shadow: 2px 2px 4px var(--mainBlackTrans);
+    font-weight:bold;
+}
+
+.skillsLinks {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    background-color: var(--mainBlue);
+    width: 100%;
+    transition: all 0.6s ease-out;
+}
+
+.skillsLinks li:hover {
+    background-color: var(--mainDarkBlue);
+    scale: 1.2;
+    transition: all 0.6s ease-out;
+}
+
+.skillsLinks li {
+    margin: 0 2vw;
+    background-color: var(--mainRed);
+    padding: 10px 20px;
+    border: 3px solid var(--mainBlackTrans);
+}
+
+.skillsLinks li a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
 }
 
 #achievement {
