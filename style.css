@@ -961,6 +961,7 @@ progress::-webkit-progress-value {
     text-decoration: underline var(--mainRed);
     text-shadow: 2px 2px 4px var(--mainBlackTrans);
     font-weight:bold;
+    margin-top: 5vh;
 }
 
 .skillsLinks {
@@ -970,9 +971,8 @@ progress::-webkit-progress-value {
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
-    background-color: var(--mainBlue);
-    width: 100%;
     transition: all 0.6s ease-out;
+    margin-top: 10vh;
 }
 
 .skillsLinks li:hover {
@@ -993,6 +993,12 @@ progress::-webkit-progress-value {
     color: white;
     font-family: var(--font-family);
     font-size: 1.2rem;
+}
+
+.skillSelection {
+    height: 20vh;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 #achievement {
