@@ -11,4 +11,4 @@ In future, this projects tab will allow the user to edit each project, delete it
 
 This Spidey Tracker also now as of 8/10/2026 has the ability for the users to input their own journal entrees in its designated page and in future works, the users journal will be stored with the aligned date, so that the users can view their past notes.
 
-The skills section will involve the use of "trophies" and "achievements" based off the users completion of different tasks. This could involve completing 10 Academic Tasks or Completing their first task, etc.
+The skills section will involve the use of "trophies" and "achievements" based off the users completion of different tasks. This could involve completing 10 Academic Tasks or Completing their first task, etc. These skills may later become specific to the missions that are completed, being grouped by sections and topics.
