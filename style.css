@@ -811,8 +811,8 @@ progress::-webkit-progress-value {
 #skillsSection {
     width: 90%;
     max-width: 1400px;
-    min-height: 110vh;
-    max-height: 110vh;
+    min-height: 100vh;
+    max-height: 100vh;
     margin: 5vh auto;
     padding: 4vh;
     box-sizing: border-box;
@@ -940,6 +940,17 @@ progress::-webkit-progress-value {
 .trophy6:hover {
     scale: 1.2;
     transition: all 0.5s ease;
+}
+
+.skillsHeader {
+    color: var(--mainRed);
+    text-align: center;
+    font-size: 8vh;
+    margin: 1vh 0 4vh;
+    text-decoration: underline var(--mainBlue);
+    text-shadow: 2px 2px 4px var(--mainBlackTrans);
+    font-weight:bold;
+    margin-bottom: 7vh;
 }
 
 #achievement {
