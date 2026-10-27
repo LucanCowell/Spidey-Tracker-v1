@@ -999,6 +999,7 @@ progress::-webkit-progress-value {
     height: 20vh;
     width: 90vw;
     margin: 0 auto;
+    margin-bottom: 20vh;
 }
 
 #achievement {
