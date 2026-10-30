@@ -13,4 +13,6 @@ This Spidey Tracker also now as of 8/10/2026 has the ability for the users to in
 
 The skills section will involve the use of "trophies" and "achievements" based off the users completion of different tasks. This could involve completing 10 Academic Tasks or Completing their first task, etc. These skills may later become specific to the missions that are completed, being grouped by sections and topics.As of 26/10/2026 the idea of these achievements being split has been put into action through the use of various skill html files that will show the achievements.
 
+Each of the groups allow users to see what areas they are strongest in, especially when paired with the rating system seen in index.html
+
 In a future version of this achievements system, it will utilise JavaScript to creae the files based off the users inputed topics opposed to what has been hardcoded.
