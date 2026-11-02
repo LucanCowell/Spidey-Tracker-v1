@@ -1008,23 +1008,17 @@ progress::-webkit-progress-value {
     color: var(--mainRed);
 }
 
-.skillsReturn {
-    color: var(--mainRed);
-    font-size: 5vh;
-    transition: all 0.3s ease-in-out;
-}
-
-.skillsReturn:hover {
-    color: var(--mainWhite);
-}
-
 #return:hover {
     scale: 1.2;
+    color: var(--mainWhite);
 }
 
 #return {
     transition: all 0.3s ease-in-out;
     margin-top: 5vh;
+    color: var(--mainRed);
+    font-size: 5vh;
+    transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 425px) {
