@@ -1018,6 +1018,15 @@ progress::-webkit-progress-value {
     color: var(--mainWhite);
 }
 
+#return:hover {
+    scale: 1.2;
+}
+
+#return {
+    transition: all 0.3s ease-in-out;
+    margin-top: 5vh;
+}
+
 @media (max-width: 425px) {
     body {
         width: 100%;
