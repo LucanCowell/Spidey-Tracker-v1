@@ -1028,6 +1028,7 @@ progress::-webkit-progress-value {
     justify-content: center;
     margin-top: 5vh;
     color: var(--mainWhite);
+    font-size: 2vh;
 }
 
 @media (max-width: 425px) {
