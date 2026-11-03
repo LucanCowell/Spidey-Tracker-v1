@@ -1021,6 +1021,15 @@ progress::-webkit-progress-value {
     transition: all 0.3s ease-in-out;
 }
 
+.trophyDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    color: var(--mainWhite);
+}
+
 @media (max-width: 425px) {
     body {
         width: 100%;
