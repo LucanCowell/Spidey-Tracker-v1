@@ -16,3 +16,5 @@ The skills section will involve the use of "trophies" and "achievements" based o
 Each of the groups allow users to see what areas they are strongest in, especially when paired with the rating system seen in index.html
 
 In a future version of this achievements system, it will utilise JavaScript to creae the files based off the users inputed topics opposed to what has been hardcoded.
+
+Upon the completion of the spidey tracker, it will be used during my HSC school year in order to stay on top of the course work and hobbies
