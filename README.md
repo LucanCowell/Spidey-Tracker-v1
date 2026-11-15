@@ -11,10 +11,6 @@ In future, this projects tab will allow the user to edit each project, delete it
 
 This Spidey Tracker also now as of 8/10/2026 has the ability for the users to input their own journal entrees in its designated page and in future works, the users journal will be stored with the aligned date, so that the users can view their past notes.
 
-The skills section will involve the use of "trophies" and "achievements" based off the users completion of different tasks. This could involve completing 10 Academic Tasks or Completing their first task, etc. These skills may later become specific to the missions that are completed, being grouped by sections and topics.As of 26/10/2026 the idea of these achievements being split has been put into action through the use of various skill html files that will show the achievements.
+The skills section will involve the use of "trophies" and "achievements" based off the users completion of different tasks. This could involve completing 10 Academic Tasks or Completing their first task, etc. These skills may later become specific to the missions that are completed, being grouped by sections and topics.
 
-Each of the groups allow users to see what areas they are strongest in, especially when paired with the rating system seen in index.html
-
-In a future version of this achievements system, it will utilise JavaScript to creae the files based off the users inputed topics opposed to what has been hardcoded.
-
-Upon the completion of the spidey tracker, it will be used during my HSC school year in order to stay on top of the course work and hobbies
+In a future update that is commencing from 15/11/2026, thematically appropriate animations will be added to make the site feel substantially more alive and interactive.
