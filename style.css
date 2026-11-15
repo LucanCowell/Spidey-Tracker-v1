@@ -1032,6 +1032,117 @@ progress::-webkit-progress-value {
     font-size: 2vh;
 }
 
+
+/* SPIDER WEB SYSTEM */
+
+
+.spider-web {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 400px;
+    height: 400px;
+
+    z-index: 100;
+
+    pointer-events: none;
+
+    opacity: 0;
+
+    animation: webAppear 1.5s ease forwards;
+
+}
+
+
+/* SVG DIMENSIONS */
+
+.spider-web svg {
+
+    display: block;
+
+    width: 400px;
+    height: 400px;
+
+}
+
+
+/* WEB STRANDS */
+
+.spider-web .web-lines {
+
+    fill: none;
+    stroke: var(--mainTan);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+
+}
+
+
+/* INDIVIDUAL WEB PATHS */
+
+.spider-web .web-lines path {
+
+    fill: none;
+
+    stroke: var(--mainTan);
+
+    stroke-width: 1.5;
+
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+
+    animation: webDraw 5s ease forwards;
+
+}
+
+
+/* APPEAR ANIMATION */
+
+@keyframes webAppear {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+
+}
+
+
+/* DRAWING ANIMATION */
+
+@keyframes webDraw {
+
+    from {
+        stroke-dashoffset: 500;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+
+    .spider-web,
+    .spider-web svg {
+
+        width: 180px;
+        height: 180px;
+
+    }
+
+}
+
 @media (max-width: 425px) {
     body {
         width: 100%;
