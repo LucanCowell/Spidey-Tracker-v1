@@ -1052,7 +1052,7 @@ progress::-webkit-progress-value {
 
     opacity: 0;
 
-    animation: webAppear 1.5s ease forwards;
+    animation: webAppear 3s ease forwards;
 
 }
 
@@ -1074,7 +1074,7 @@ progress::-webkit-progress-value {
 .spider-web .web-lines {
 
     fill: none;
-    stroke: var(--mainTan);
+    stroke: var(--mainWhite);
     stroke-width: 1.5;
     stroke-linecap: round;
 
@@ -1087,7 +1087,7 @@ progress::-webkit-progress-value {
 
     fill: none;
 
-    stroke: var(--mainTan);
+    stroke: var(--mainWhite);
 
     stroke-width: 1.5;
 
