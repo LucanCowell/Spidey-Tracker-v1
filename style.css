@@ -1056,6 +1056,43 @@ progress::-webkit-progress-value {
 
 }
 
+/* TOP RIGHT SPIDER WEB */
+
+.spider-web-top-right {
+
+    left: auto;
+    right: 0;
+
+    transform: scaleX(-1);
+
+}
+
+/* BOTTOM RIGHT SPIDER WEB */
+
+.spider-web-bottom-right {
+
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+
+    transform: rotate(180deg);
+
+}
+
+/* BOTTOM LEFT SPIDER WEB */
+
+.spider-web-bottom-left {
+
+    left: 0;
+    right: auto;
+    top: auto;
+    bottom: 0;
+
+    transform: scaleY(-1);
+
+}
+
 
 /* SVG DIMENSIONS */
 
