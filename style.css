@@ -1405,4 +1405,18 @@ progress::-webkit-progress-value {
     margin-top: 5vh;
     justify-items: center;
 }
+
+/* APPEAR ANIMATION */
+
+@keyframes webAppear {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.4;
+    }
+
+}
 }
