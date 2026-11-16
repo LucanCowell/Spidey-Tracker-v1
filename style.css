@@ -1062,6 +1062,8 @@ progress::-webkit-progress-value {
 
     left: auto;
     right: 0;
+    height: 300px;
+    width: 300px;
 
     transform: scaleX(-1);
 
@@ -1075,6 +1077,8 @@ progress::-webkit-progress-value {
     right: 0;
     top: auto;
     bottom: 0;
+    height: 200px;
+    width: 200px;
 
     transform: rotate(180deg);
 
@@ -1088,6 +1092,8 @@ progress::-webkit-progress-value {
     right: auto;
     top: auto;
     bottom: 0;
+    height: 300px;
+    width: 300px;
 
     transform: scaleY(-1);
 
@@ -1100,8 +1106,8 @@ progress::-webkit-progress-value {
 
     display: block;
 
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 
 }
 
