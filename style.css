@@ -1052,7 +1052,9 @@ progress::-webkit-progress-value {
 
     opacity: 0;
 
-    animation: webAppear 3s ease forwards;
+    animation:
+    webAppear 1.5s ease forwards,
+    webSway 5s ease-in-out infinite;
 
 }
 
@@ -1171,6 +1173,19 @@ progress::-webkit-progress-value {
 
 }
 
+@keyframes webSway {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: 3deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
 
 /* MOBILE RESPONSIVENESS */
 
