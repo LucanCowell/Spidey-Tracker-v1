@@ -85,6 +85,8 @@ text-shadow: 5px 5px 20px rgba(44, 240, 227, 0.5);
     padding: 1vh 4vh;
     box-sizing: border-box;
     position: relative;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .nav-links {
