@@ -279,6 +279,28 @@ progress::-webkit-progress-value {
     margin-bottom: 2vh;
 }
 
+/* Spider Sense Button Effect */
+
+.spider-sense:hover {
+    animation: spiderSense 1.5s ease-in-out infinite;
+}
+
+@keyframes spiderSense {
+    0% {
+        box-shadow: 0 0 0 var(--mainRed);
+    }
+
+    50% {
+        box-shadow:
+            0 0 15px var(--mainRed),
+            0 0 30px var(--mainRed);
+    }
+
+    100% {
+        box-shadow: 0 0 0 var(--mainRed);
+    }
+}
+
 /* Missions CSS */
 
 .mixedHeader {
