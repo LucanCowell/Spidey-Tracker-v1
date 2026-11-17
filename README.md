@@ -14,3 +14,6 @@ This Spidey Tracker also now as of 8/10/2026 has the ability for the users to in
 The skills section will involve the use of "trophies" and "achievements" based off the users completion of different tasks. This could involve completing 10 Academic Tasks or Completing their first task, etc. These skills may later become specific to the missions that are completed, being grouped by sections and topics.
 
 In a future update that is commencing from 15/11/2026, thematically appropriate animations will be added to make the site feel substantially more alive and interactive.
+
+The list of these animations are as follows:
+    - Spider Webs in the corner of the screens that are drawn using an <svg> tag.
