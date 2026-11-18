@@ -967,12 +967,12 @@ progress::-webkit-progress-value {
 }
 
 .skillsHeader {
-    color: var(--mainRed);
+    color: var(--mainWhite);
     text-align: center;
     font-size: 8vh;
     margin: 1vh 0 4vh;
-    text-decoration: underline var(--mainBlue);
-    text-shadow: 2px 2px 4px var(--mainBlackTrans);
+    text-decoration: underline var(--mainRed);
+    text-shadow: 2px 2px 4px var(--mainBlack);
     font-weight:bold;
     margin-bottom: 3vh;
 }
