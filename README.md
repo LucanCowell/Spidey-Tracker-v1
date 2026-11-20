@@ -17,3 +17,4 @@ In a future update that is commencing from 15/11/2026, thematically appropriate 
 
 The list of these animations are as follows:
     - Spider Webs in the corner of the screens that are drawn using an <svg> tag.
+    - A Spider Sense effect to the navigation buttons throughout the main pages.
